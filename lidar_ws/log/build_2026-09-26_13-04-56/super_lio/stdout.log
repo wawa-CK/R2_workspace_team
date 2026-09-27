@@ -1,0 +1,274 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found livox_ros_driver2: 1.0.0 (/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+-- Found basic: 2.0.0 (/home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake)
+-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/slam/r2_ws/lidar_ws/build/super_lio
+[35m[1mConsolidate compiler generated dependencies of target super_lio__rosidl_generator_c[0m
+[  2%] Built target super_lio__rs
+[ 10%] Built target super_lio__rosidl_generator_c
+[ 12%] Built target super_lio__cpp
+[35m[1mConsolidate compiler generated dependencies of target super_lio__rosidl_typesupport_c[0m
+[ 12%] Built target ament_cmake_python_copy_super_lio
+[35m[1mConsolidate compiler generated dependencies of target super_lio__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target super_lio__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target super_lio__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target super_lio__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target super_lio__rosidl_typesupport_introspection_c[0m
+[ 20%] Built target super_lio__rosidl_typesupport_introspection_c
+[ 28%] Built target super_lio__rosidl_typesupport_introspection_cpp
+[ 36%] Built target super_lio__rosidl_typesupport_c
+[ 44%] Built target super_lio__rosidl_typesupport_fastrtps_c
+[ 58%] Built target super_lio__rosidl_typesupport_cpp
+[ 60%] Built target super_lio__rosidl_typesupport_fastrtps_cpp
+[ 60%] Built target super_lio
+[35m[1mConsolidate compiler generated dependencies of target lio[0m
+[ 62%] Built target super_lio__py
+[35m[1mConsolidate compiler generated dependencies of target super_lio__rosidl_generator_py[0m
+[ 68%] Built target super_lio__rosidl_generator_py
+[ 80%] Built target lio
+[35m[1mConsolidate compiler generated dependencies of target super_lio__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target super_lio_node[0m
+[35m[1mConsolidate compiler generated dependencies of target super_lio__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target super_lio__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target relocation_node[0m
+[ 84%] Built target super_lio__rosidl_typesupport_introspection_c__pyext
+[ 88%] Built target super_lio__rosidl_typesupport_c__pyext
+[ 92%] Built target super_lio__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target super_lio_node
+[100%] Built target relocation_node
+running egg_info
+writing super_lio.egg-info/PKG-INFO
+writing dependency_links to super_lio.egg-info/dependency_links.txt
+writing top-level names to super_lio.egg-info/top_level.txt
+reading manifest file 'super_lio.egg-info/SOURCES.txt'
+writing manifest file 'super_lio.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_super_lio_egg
+-- Install configuration: "Release"
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/ament_index/resource_index/rosidl_interfaces/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/cloud_pose.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/cloud_pose2.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__type_support.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__type_support.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__functions.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__functions.c
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__functions.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__functions.c
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__struct.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__struct.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/environment/library_path.sh
+-- Installing: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/environment/library_path.dsv
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/lib/libsuper_lio__rosidl_generator_c.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/lib/libsuper_lio__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__type_support.c
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__type_support.c
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/lib/libsuper_lio__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/lib/libsuper_lio__rosidl_typesupport_c.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/cloud_pose.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__builder.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__struct.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__builder.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__traits.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__type_support.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__struct.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__type_support.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__traits.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/cloud_pose2.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/dds_fastrtps
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/lib/libsuper_lio__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__type_support.cpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose2__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/super_lio/msg/detail/cloud_pose__type_support.cpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/lib/libsuper_lio__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/lib/libsuper_lio__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/environment/pythonpath.sh
+-- Installing: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/environment/pythonpath.dsv
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio-2.0.0-py3.10.egg-info
+-- Installing: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio-2.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio-2.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio-2.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio-2.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/libsuper_lio__rosidl_generator_py.so
+-- Installing: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/__init__.py
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/super_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/_super_lio_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/_super_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/msg
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/msg/_cloud_pose_s.c
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/msg/__init__.py
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/msg/_cloud_pose2_s.c
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/msg/_cloud_pose2.py
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/msg/_cloud_pose.py
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/super_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/super_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/_super_lio_s.ep.rosidl_typesupport_c.c
+Listing '/home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio'...
+Compiling '/home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/__init__.py'...
+Listing '/home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/msg'...
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/super_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/super_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/local/lib/python3.10/dist-packages/super_lio/super_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/lib/libsuper_lio__rosidl_generator_py.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/rust
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/rust/src
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/rust/src/msg.rs
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/rust/src/msg
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/rust/src/msg/rmw.rs
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/rust/src/lib.rs
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/rust/build.rs
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/rust/Cargo.toml
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/msg/CloudPose.idl
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/msg/CloudPose2.idl
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/msg/CloudPose.msg
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/msg/CloudPose2.msg
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/lib/liblio.so
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/lib/super_lio/super_lio_node
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/lib/super_lio/relocation_node
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/lio/params.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/lio/super_lio_reloc.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/lio/super_lio.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/lio/ESKF.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/ros
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/ros/ROSWrapper.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/common
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/common/ds.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/common/timer.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/OctVoxMap
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/OctVoxMap/VoxelGridFilter.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/OctVoxMap/HKNN_list60_gem.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/OctVoxMap/output
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/OctVoxMap/output/.gitignore
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/OctVoxMap/tsl
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/OctVoxMap/tsl/robin_set.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/OctVoxMap/tsl/robin_growth_policy.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/OctVoxMap/tsl/robin_hood.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/OctVoxMap/tsl/robin_map.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/OctVoxMap/tsl/robin_hash.h
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/OctVoxMap/OctVoxMap.hpp
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/include/super_lio/.gitkeep
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/launch
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/launch/MCD_ATH.py
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/launch/r3live.py
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/launch/hesai.py
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/launch/M2DGR.py
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/launch/NTU.py
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/launch/relocation.py
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/launch/Livox_mid360.py
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/launch/NCLT.py
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/config
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/config/MCD_ATH.yaml
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/config/NCLT.yaml
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/config/livox_360.yaml
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/config/hesai.yaml
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/config/NTU.yaml
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/config/r3live.yaml
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/config/relocation.yaml
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/config/M2DGR.yaml
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/rviz
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/rviz/lio.rviz
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/rviz/relocation.rviz
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/ament_index/resource_index/package_run_dependencies/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/ament_index/resource_index/parent_prefix_path/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/environment/ament_prefix_path.sh
+-- Installing: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/environment/path.sh
+-- Installing: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/environment/path.dsv
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/local_setup.bash
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/local_setup.sh
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/local_setup.zsh
+-- Installing: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/local_setup.dsv
+-- Installing: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/package.dsv
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/ament_index/resource_index/packages/super_lio
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/export_super_lio__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/export_super_lio__rosidl_generator_cExport-release.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/export_super_lio__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/export_super_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/super_lio__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/super_lio__rosidl_typesupport_introspection_cExport-release.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/super_lio__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/super_lio__rosidl_typesupport_cExport-release.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/export_super_lio__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/export_super_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/export_super_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/super_lio__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/super_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/super_lio__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/super_lio__rosidl_typesupport_cppExport-release.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/export_super_lio__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/export_super_lio__rosidl_generator_pyExport-release.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/super_lioConfig.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/cmake/super_lioConfig-version.cmake
+-- Up-to-date: /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/package.xml

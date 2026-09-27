@@ -1,0 +1,51 @@
+[0.008s] Invoking command in '/home/slam/r2_ws/lidar_ws/src/build/basic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/src/install/basic
+[0.124s] -- The CXX compiler identification is GNU 11.4.0
+[0.156s] -- The C compiler identification is GNU 11.4.0
+[0.164s] -- Detecting CXX compiler ABI info
+[0.237s] -- Detecting CXX compiler ABI info - done
+[0.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.243s] -- Detecting CXX compile features
+[0.243s] -- Detecting CXX compile features - done
+[0.245s] -- Detecting C compiler ABI info
+[0.302s] -- Detecting C compiler ABI info - done
+[0.307s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.307s] -- Detecting C compile features
+[0.307s] -- Detecting C compile features - done
+[0.310s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.424s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.495s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.528s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.532s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.539s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.562s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.602s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.604s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.680s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.709s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.743s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.751s] -- Looking for pthread.h
+[0.818s] -- Looking for pthread.h - found
+[0.818s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.889s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.890s] -- Found Threads: TRUE  
+[0.945s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.945s]   By not providing "FindGlog.cmake" in CMAKE_MODULE_PATH this project has
+[0.945s]   asked CMake to find a package configuration file provided by "Glog", but
+[0.946s]   CMake did not find one.
+[0.946s] 
+[0.946s]   Could not find a package configuration file provided by "Glog" with any of
+[0.946s]   the following names:
+[0.946s] 
+[0.946s]     GlogConfig.cmake
+[0.946s]     glog-config.cmake
+[0.946s] 
+[0.946s]   Add the installation prefix of "Glog" to CMAKE_PREFIX_PATH or set
+[0.946s]   "Glog_DIR" to a directory containing one of the above files.  If "Glog"
+[0.946s]   provides a separate development package or SDK, be sure it has been
+[0.946s]   installed.
+[0.947s] 
+[0.947s] [0m
+[0.947s] -- Configuring incomplete, errors occurred!
+[0.947s] See also "/home/slam/r2_ws/lidar_ws/src/build/basic/CMakeFiles/CMakeOutput.log".
+[0.952s] Invoked command in '/home/slam/r2_ws/lidar_ws/src/build/basic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/src/install/basic

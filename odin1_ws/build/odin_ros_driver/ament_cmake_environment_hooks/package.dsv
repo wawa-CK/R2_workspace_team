@@ -1,0 +1,4 @@
+source;share/odin_ros_driver/local_setup.bash
+source;share/odin_ros_driver/local_setup.dsv
+source;share/odin_ros_driver/local_setup.sh
+source;share/odin_ros_driver/local_setup.zsh

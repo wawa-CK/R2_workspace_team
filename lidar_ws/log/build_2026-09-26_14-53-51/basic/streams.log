@@ -1,0 +1,41 @@
+[0.012s] Invoking command in '/home/slam/r2_ws/lidar_ws/build/basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/basic -- -j10 -l10
+[0.065s] [100%] Built target basic
+[0.079s] Invoked command in '/home/slam/r2_ws/lidar_ws/build/basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/basic -- -j10 -l10
+[0.089s] Invoking command in '/home/slam/r2_ws/lidar_ws/build/basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/basic
+[0.096s] -- Install configuration: "Release"
+[0.101s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/lib/libbasic.so
+[0.101s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/include
+[0.101s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/include/basic
+[0.101s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/Manifold.h
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/alias.h
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/math.h
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/ds.h
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/buffer
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/buffer/LatestOnlyBuffer.hpp
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/buffer/MultiSourceLatestBuffer.hpp
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/buffer/RingBuffer.hpp
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/logs.h
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/environment/library_path.sh
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/environment/library_path.dsv
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/ament_index/resource_index/package_run_dependencies/basic
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/ament_index/resource_index/parent_prefix_path/basic
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/environment/ament_prefix_path.sh
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/environment/ament_prefix_path.dsv
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/environment/path.sh
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/environment/path.dsv
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/local_setup.bash
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/local_setup.sh
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/local_setup.zsh
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/local_setup.dsv
+[0.102s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.dsv
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/ament_index/resource_index/packages/basic
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/export_basicExport.cmake
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/export_basicExport-release.cmake
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/ament_cmake_export_targets-extras.cmake
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/ament_cmake_export_libraries-extras.cmake
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/basicConfig.cmake
+[0.102s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/basicConfig-version.cmake
+[0.108s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.xml
+[0.108s] Invoked command in '/home/slam/r2_ws/lidar_ws/build/basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/basic

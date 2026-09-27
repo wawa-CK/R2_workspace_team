@@ -1,0 +1,4 @@
+[01m[K/home/slam/r2_ws/lidar_ws/src/livox_ros_driver2/src/comm/pub_handler.cpp:[m[K In member function ‘[01m[Kvoid livox_ros::LidarPubHandler::ProcessDoubleEchoPoint(livox_ros::RawPacket&)[m[K’:
+[01m[K/home/slam/r2_ws/lidar_ws/src/livox_ros_driver2/src/comm/pub_handler.cpp:466:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  466 |   uint32_t [01;35m[Kindex[m[K = 0;
+      |            [01;35m[K^~~~~[m[K

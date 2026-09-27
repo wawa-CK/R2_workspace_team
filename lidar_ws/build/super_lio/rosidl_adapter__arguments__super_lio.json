@@ -1,0 +1,7 @@
+{
+  "package_name": "super_lio",
+  "non_idl_tuples": [
+    "/home/slam/r2_ws/lidar_ws/src/Super-LIO/src/super_lio:msg/CloudPose.msg",
+    "/home/slam/r2_ws/lidar_ws/src/Super-LIO/src/super_lio:msg/CloudPose2.msg"
+  ]
+}

@@ -1,0 +1,37 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_ae__type_support.cpp.o"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_ae__type_support.cpp.o.d"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_awb__type_support.cpp.o"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_awb__type_support.cpp.o.d"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_device_logs__type_support.cpp.o"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_device_logs__type_support.cpp.o.d"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/reset_algo__type_support.cpp.o"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/reset_algo__type_support.cpp.o.d"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/save_map__type_support.cpp.o"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/save_map__type_support.cpp.o.d"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/set_ae__type_support.cpp.o"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/set_ae__type_support.cpp.o.d"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/set_awb__type_support.cpp.o"
+  "CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/set_awb__type_support.cpp.o.d"
+  "libodin_ros_driver__rosidl_typesupport_introspection_cpp.pdb"
+  "libodin_ros_driver__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_ae__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_ae__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_awb__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_awb__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_device_logs__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_device_logs__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/reset_algo__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/reset_algo__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/save_map__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/set_ae__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/set_ae__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/set_awb__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/set_awb__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

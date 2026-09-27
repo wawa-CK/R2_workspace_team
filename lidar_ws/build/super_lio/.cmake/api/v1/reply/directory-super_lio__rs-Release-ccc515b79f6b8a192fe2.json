@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "super_lio__rs",
+		"source" : "/home/slam/r2_ws/lidar_ws/build/super_lio/super_lio__rs"
+	}
+}

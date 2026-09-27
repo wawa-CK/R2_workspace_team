@@ -1,0 +1,387 @@
+[0.111s] DEBUG:colcon:Command line arguments: ['/home/slam/.local/bin/colcon', 'build']
+[0.111s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=10, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75c9f110fdf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75c9f110f850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75c9f110f850>>)
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.252s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/slam/r2_ws/lidar_ws'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(Livox-SDK2) by extension 'python'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'Livox-SDK2' with type 'cmake' and name 'livox_sdk2'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/docs) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/basic) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/basic) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/basic) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/basic) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/basic) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/basic) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/basic) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/basic) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/basic) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Super-LIO/src/basic' with type 'ros.ament_cmake' and name 'basic'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/super_lio) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/super_lio) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/super_lio) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/super_lio) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/super_lio) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/super_lio) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/super_lio) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/super_lio) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/Super-LIO/src/super_lio) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Super-LIO/src/super_lio' with type 'ros.ament_cmake' and name 'super_lio'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'basic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/slam/r2_ws/lidar_ws/build/basic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/slam/r2_ws/lidar_ws/install/basic', 'merge_install': False, 'path': '/home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic', 'symlink_install': False, 'test_result_base': None}
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/slam/r2_ws/lidar_ws/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/slam/r2_ws/lidar_ws/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'livox_sdk2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'livox_sdk2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/slam/r2_ws/lidar_ws/build/livox_sdk2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/slam/r2_ws/lidar_ws/install/livox_sdk2', 'merge_install': False, 'path': '/home/slam/r2_ws/lidar_ws/Livox-SDK2', 'symlink_install': False, 'test_result_base': None}
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.298s] DEBUG:colcon.colcon_core.verb:Building package 'super_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/slam/r2_ws/lidar_ws/build/super_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/slam/r2_ws/lidar_ws/install/super_lio', 'merge_install': False, 'path': '/home/slam/r2_ws/lidar_ws/src/Super-LIO/src/super_lio', 'symlink_install': False, 'test_result_base': None}
+[0.298s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.298s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic'
+[0.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.305s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/slam/r2_ws/lidar_ws/src/livox_ros_driver2' with build type 'ament_cmake'
+[0.305s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/slam/r2_ws/lidar_ws/src/livox_ros_driver2'
+[0.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/slam/r2_ws/lidar_ws/Livox-SDK2'
+[0.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/slam/r2_ws/lidar_ws/build/basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/basic -- -j10 -l10
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/slam/r2_ws/lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/livox_ros_driver2 -- -j10 -l10
+[0.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2': /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/livox_sdk2 -- -j10 -l10
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/slam/r2_ws/lidar_ws/build/basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/basic -- -j10 -l10
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/slam/r2_ws/lidar_ws/build/basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/basic
+[0.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic)
+[0.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/slam/r2_ws/lidar_ws/build/basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/basic
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic' for CMake module files
+[0.485s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic' for CMake config files
+[0.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic', 'cmake_prefix_path')
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/hook/cmake_prefix_path.ps1'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/hook/cmake_prefix_path.dsv'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/hook/cmake_prefix_path.sh'
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic/lib'
+[0.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic', 'ld_library_path_lib')
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/hook/ld_library_path_lib.ps1'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/hook/ld_library_path_lib.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/hook/ld_library_path_lib.sh'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic/bin'
+[0.490s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic/lib/pkgconfig/basic.pc'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic/lib/python3.10/site-packages'
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic/bin'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.ps1'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.dsv'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.sh'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.bash'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.zsh'
+[0.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/slam/r2_ws/lidar_ws/install/basic/share/colcon-core/packages/basic)
+[0.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic)
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic' for CMake module files
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic' for CMake config files
+[0.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic', 'cmake_prefix_path')
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/hook/cmake_prefix_path.ps1'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/hook/cmake_prefix_path.dsv'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/hook/cmake_prefix_path.sh'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic/lib'
+[0.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('basic', 'ld_library_path_lib')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/hook/ld_library_path_lib.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/hook/ld_library_path_lib.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/hook/ld_library_path_lib.sh'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic/bin'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic/lib/pkgconfig/basic.pc'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic/lib/python3.10/site-packages'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/basic/bin'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.sh'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.bash'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.zsh'
+[0.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/slam/r2_ws/lidar_ws/install/basic/share/colcon-core/packages/basic)
+[0.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/livox_sdk2 -- -j10 -l10
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2': /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/livox_sdk2
+[0.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_sdk2)
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_sdk2' for CMake module files
+[0.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/livox_sdk2
+[0.514s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_sdk2' for CMake config files
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/lib'
+[0.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_sdk2', 'ld_library_path_lib')
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/share/livox_sdk2/hook/ld_library_path_lib.sh'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/bin'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/lib/pkgconfig/livox_sdk2.pc'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/lib/python3.10/site-packages'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/bin'
+[0.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/share/livox_sdk2/package.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/share/livox_sdk2/package.dsv'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/share/livox_sdk2/package.sh'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/share/livox_sdk2/package.bash'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/livox_sdk2/share/livox_sdk2/package.zsh'
+[0.517s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/slam/r2_ws/lidar_ws/install/livox_sdk2/share/colcon-core/packages/livox_sdk2)
+[0.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/slam/r2_ws/lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/livox_ros_driver2 -- -j10 -l10
+[0.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/slam/r2_ws/lidar_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/livox_ros_driver2
+[0.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/slam/r2_ws/lidar_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/livox_ros_driver2
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2' for CMake module files
+[0.677s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2' for CMake config files
+[0.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/lib'
+[0.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[0.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/bin'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/bin'
+[0.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[0.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[0.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2' for CMake module files
+[0.682s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2' for CMake config files
+[0.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[0.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[0.683s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[0.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/lib'
+[0.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[0.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[0.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[0.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/bin'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/lib/python3.10/site-packages'
+[0.684s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/bin'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[0.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[0.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[0.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[0.686s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/slam/r2_ws/lidar_ws/src/Super-LIO/src/super_lio' with build type 'ament_cmake'
+[0.686s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/slam/r2_ws/lidar_ws/src/Super-LIO/src/super_lio'
+[0.686s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.686s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/slam/r2_ws/lidar_ws/build/super_lio': CMAKE_PREFIX_PATH=/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2:/home/slam/r2_ws/lidar_ws/install/basic:/home/slam/r2_ws/lidar_ws/install/super_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/lib:/home/slam/r2_ws/lidar_ws/install/basic/lib:/home/slam/r2_ws/lidar_ws/install/super_lio/lib:/home/slam/r2_ws/lidar_ws/install/livox_sdk2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/super_lio -- -j10 -l10
+[0.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/slam/r2_ws/lidar_ws/build/super_lio' returned '0': CMAKE_PREFIX_PATH=/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2:/home/slam/r2_ws/lidar_ws/install/basic:/home/slam/r2_ws/lidar_ws/install/super_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/lib:/home/slam/r2_ws/lidar_ws/install/basic/lib:/home/slam/r2_ws/lidar_ws/install/super_lio/lib:/home/slam/r2_ws/lidar_ws/install/livox_sdk2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/super_lio -- -j10 -l10
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/slam/r2_ws/lidar_ws/build/super_lio': CMAKE_PREFIX_PATH=/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2:/home/slam/r2_ws/lidar_ws/install/basic:/home/slam/r2_ws/lidar_ws/install/super_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/lib:/home/slam/r2_ws/lidar_ws/install/basic/lib:/home/slam/r2_ws/lidar_ws/install/super_lio/lib:/home/slam/r2_ws/lidar_ws/install/livox_sdk2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/super_lio
+[1.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(super_lio)
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio' for CMake module files
+[1.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/slam/r2_ws/lidar_ws/build/super_lio' returned '0': CMAKE_PREFIX_PATH=/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2:/home/slam/r2_ws/lidar_ws/install/basic:/home/slam/r2_ws/lidar_ws/install/super_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/lib:/home/slam/r2_ws/lidar_ws/install/basic/lib:/home/slam/r2_ws/lidar_ws/install/super_lio/lib:/home/slam/r2_ws/lidar_ws/install/livox_sdk2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/super_lio
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio' for CMake config files
+[1.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('super_lio', 'cmake_prefix_path')
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/hook/cmake_prefix_path.ps1'
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/hook/cmake_prefix_path.dsv'
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/hook/cmake_prefix_path.sh'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio/lib'
+[1.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('super_lio', 'ld_library_path_lib')
+[1.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/hook/ld_library_path_lib.ps1'
+[1.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/hook/ld_library_path_lib.dsv'
+[1.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/hook/ld_library_path_lib.sh'
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio/bin'
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio/lib/pkgconfig/super_lio.pc'
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio/lib/python3.10/site-packages'
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio/bin'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/package.ps1'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/package.dsv'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/package.sh'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/package.bash'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/package.zsh'
+[1.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/slam/r2_ws/lidar_ws/install/super_lio/share/colcon-core/packages/super_lio)
+[1.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(super_lio)
+[1.031s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio' for CMake module files
+[1.031s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio' for CMake config files
+[1.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('super_lio', 'cmake_prefix_path')
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/hook/cmake_prefix_path.ps1'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/hook/cmake_prefix_path.dsv'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/hook/cmake_prefix_path.sh'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio/lib'
+[1.032s] Level 1:colcon.colcon_core.shell:create_environment_hook('super_lio', 'ld_library_path_lib')
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/hook/ld_library_path_lib.ps1'
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/hook/ld_library_path_lib.dsv'
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/hook/ld_library_path_lib.sh'
+[1.033s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio/bin'
+[1.033s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio/lib/pkgconfig/super_lio.pc'
+[1.033s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio/lib/python3.10/site-packages'
+[1.033s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/install/super_lio/bin'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/package.ps1'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/package.dsv'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/package.sh'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/package.bash'
+[1.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/package.zsh'
+[1.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/slam/r2_ws/lidar_ws/install/super_lio/share/colcon-core/packages/super_lio)
+[1.035s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.035s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.035s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.035s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.048s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.048s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.048s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.064s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.065s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/slam/r2_ws/lidar_ws/install/local_setup.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/slam/r2_ws/lidar_ws/install/_local_setup_util_ps1.py'
+[1.066s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/slam/r2_ws/lidar_ws/install/setup.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/slam/r2_ws/lidar_ws/install/local_setup.sh'
+[1.068s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/slam/r2_ws/lidar_ws/install/_local_setup_util_sh.py'
+[1.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/slam/r2_ws/lidar_ws/install/setup.sh'
+[1.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/slam/r2_ws/lidar_ws/install/local_setup.bash'
+[1.070s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/slam/r2_ws/lidar_ws/install/setup.bash'
+[1.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/slam/r2_ws/lidar_ws/install/local_setup.zsh'
+[1.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/slam/r2_ws/lidar_ws/install/setup.zsh'

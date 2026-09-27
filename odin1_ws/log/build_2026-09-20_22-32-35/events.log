@@ -1,0 +1,1229 @@
+[0.000000] (-) TimerEvent: {}
+[0.000252] (odin_ros_driver) JobQueued: {'identifier': 'odin_ros_driver', 'dependencies': OrderedDict()}
+[0.000297] (odin_ros_driver) JobStarted: {'identifier': 'odin_ros_driver'}
+[0.005533] (odin_ros_driver) JobProgress: {'identifier': 'odin_ros_driver', 'progress': 'cmake'}
+[0.006597] (odin_ros_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/slam/r2_ws/odin1_ws/src/odin_ros_driver', '-DBUILD_SYSTEM=ROS2', '-DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/odin1_ws/install/odin_ros_driver'], 'cwd': '/home/slam/r2_ws/odin1_ws/build/odin_ros_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/slam'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro[1M]'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-278_agent'), ('USER', 'slam'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.278'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CLAUDE_CODE_MESSAGING_TOKEN', '497967be9d33e897f122397be48a9530'), ('HOME', '/home/slam'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/slam/r2_ws/odin1_ws/src/odin_ros_driver'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-cfeee4f1-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('MANAGERPID', '953'), ('SYSTEMD_EXEC_PID', '1115'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1792'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'slam'), ('JOURNAL_STREAM', '8:2728'), ('_', '/home/slam/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'slam'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/slam/.local/bin:/home/slam/.local/bin:/home/slam/.local/bin:/opt/ros/humble/bin:/home/slam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-mix:@/tmp/.ICE-unix/1076,unix/robot-mix:/tmp/.ICE-unix/1076'), ('INVOCATION_ID', 'f5bc55949d794918b5c212d3c2654561'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('CLAUDE_PID', '2281'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T4HTV3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-2cf0b1f2751a49208ea01ddcbbe17ca0'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '805de6d3-46db-4668-8f10-ad1b10cd1b05'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/slam/r2_ws/odin1_ws/build/odin_ros_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/slam/.config/Code/CachedData/bf9252a2fb45be6893dd8870c0bf37e2e1766d61'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/slam/.vscode/extensions/anthropic.claude-code-2.1.278-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('COLCON', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/2281.sock'), ('VSCODE_PID', '1792'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099685] (-) TimerEvent: {}
+[0.115123] (odin_ros_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198339] (odin_ros_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199793] (-) TimerEvent: {}
+[0.205430] (odin_ros_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.282775] (odin_ros_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.289085] (odin_ros_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.289310] (odin_ros_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.289830] (odin_ros_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.294633] (odin_ros_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299988] (-) TimerEvent: {}
+[0.395662] (odin_ros_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400071] (-) TimerEvent: {}
+[0.401973] (odin_ros_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.402179] (odin_ros_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.402654] (odin_ros_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.403152] (odin_ros_driver) StdoutLine: {'line': b'-- ROS_VERSION: ROS2\n'}
+[0.403255] (odin_ros_driver) StdoutLine: {'line': b'-- Defining ROS2\n'}
+[0.403289] (odin_ros_driver) StdoutLine: {'line': b'-- Build system: ROS2\n'}
+[0.404787] (odin_ros_driver) StdoutLine: {'line': b'-- Detected x86_64 architecture\n'}
+[0.404832] (odin_ros_driver) StdoutLine: {'line': b'-- Library directory: /home/slam/r2_ws/odin1_ws/src/odin_ros_driver/lib\n'}
+[0.404927] (odin_ros_driver) StdoutLine: {'line': b'-- Found lydHostApi library: /home/slam/r2_ws/odin1_ws/src/odin_ros_driver/lib/liblydHostApi_amd.a\n'}
+[0.404973] (odin_ros_driver) StdoutLine: {'line': b'-- Backtrace symbols enabled (-g, frame pointers, -rdynamic)\n'}
+[0.411303] (odin_ros_driver) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.425837] (odin_ros_driver) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.440119] (odin_ros_driver) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.452840] (odin_ros_driver) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.487476] (odin_ros_driver) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.487615] (odin_ros_driver) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.500171] (-) TimerEvent: {}
+[0.518485] (odin_ros_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[0.531592] (odin_ros_driver) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.545347] (odin_ros_driver) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.597652] (odin_ros_driver) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.597743] (odin_ros_driver) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.600237] (-) TimerEvent: {}
+[0.624041] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.693063] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.693234] (odin_ros_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700301] (-) TimerEvent: {}
+[0.758601] (odin_ros_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.759296] (odin_ros_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.760679] (odin_ros_driver) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.765272] (odin_ros_driver) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[0.800442] (-) TimerEvent: {}
+[0.900641] (-) TimerEvent: {}
+[0.907156] (odin_ros_driver) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[0.907303] (odin_ros_driver) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[0.909619] (odin_ros_driver) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[0.915475] (odin_ros_driver) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.926694] (odin_ros_driver) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[0.941189] (odin_ros_driver) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.000780] (-) TimerEvent: {}
+[1.026966] (odin_ros_driver) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.027368] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.101002] (-) TimerEvent: {}
+[1.116063] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.116210] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.187721] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.187965] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.201091] (-) TimerEvent: {}
+[1.272978] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.273256] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.301188] (-) TimerEvent: {}
+[1.347882] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.348079] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.401386] (-) TimerEvent: {}
+[1.433912] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.434178] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.501501] (-) TimerEvent: {}
+[1.516564] (odin_ros_driver) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.598018] (odin_ros_driver) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[1.601238] (odin_ros_driver) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.601565] (-) TimerEvent: {}
+[1.604651] (odin_ros_driver) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[1.606792] (odin_ros_driver) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[1.634540] (odin_ros_driver) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.638611] (odin_ros_driver) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[1.641901] (odin_ros_driver) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[1.646849] (odin_ros_driver) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[1.701680] (-) TimerEvent: {}
+[1.742414] (odin_ros_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.760466] (odin_ros_driver) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.801814] (-) TimerEvent: {}
+[1.806080] (odin_ros_driver) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.807789] (odin_ros_driver) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[1.807883] (odin_ros_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.880611] (odin_ros_driver) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[1.880858] (odin_ros_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.881180] (odin_ros_driver) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[1.901921] (-) TimerEvent: {}
+[1.993178] (odin_ros_driver) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.998209] (odin_ros_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.001975] (-) TimerEvent: {}
+[2.002619] (odin_ros_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.102078] (-) TimerEvent: {}
+[2.113842] (odin_ros_driver) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.202168] (-) TimerEvent: {}
+[2.227615] (odin_ros_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.302275] (-) TimerEvent: {}
+[2.346512] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.347109] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.347148] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.348633] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.348665] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.349174] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.349251] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.349767] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.349795] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.350349] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.350380] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.350947] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.350977] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.351167] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.351195] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.351393] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.351421] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.352033] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.352064] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.353035] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.353166] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.353706] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.353734] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.354350] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.354469] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.355036] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.355178] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.355705] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.355733] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.356319] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.356430] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.356917] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.357069] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.357558] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.357642] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.358199] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.358351] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.358943] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.359001] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.359555] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.359931] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.360033] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.360102] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.360263] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.360329] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.360768] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.360825] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.361376] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.361489] (odin_ros_driver) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.362025] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.362540] (odin_ros_driver) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[2.402401] (-) TimerEvent: {}
+[2.425508] (odin_ros_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.426374] (odin_ros_driver) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.446211] (odin_ros_driver) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.490094] (odin_ros_driver) StdoutLine: {'line': b'-- Configuring for ROS2 build\n'}
+[2.493570] (odin_ros_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.502549] (-) TimerEvent: {}
+[2.602779] (-) TimerEvent: {}
+[2.629759] (odin_ros_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.696919] (odin_ros_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.702871] (-) TimerEvent: {}
+[2.731212] (odin_ros_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.734666] (odin_ros_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.741586] (odin_ros_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.751083] (odin_ros_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.763164] (odin_ros_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.803088] (-) TimerEvent: {}
+[2.808994] (odin_ros_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.811152] (odin_ros_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.873071] (odin_ros_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.900728] (odin_ros_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.903133] (-) TimerEvent: {}
+[2.949045] (odin_ros_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.972391] (odin_ros_driver) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.984878] (odin_ros_driver) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[2.999355] (odin_ros_driver) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[3.002095] (odin_ros_driver) StdoutLine: {'line': b'-- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[3.003192] (-) TimerEvent: {}
+[3.024681] (odin_ros_driver) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[3.041844] (odin_ros_driver) StdoutLine: {'line': b'-- Found tf2: 0.25.23 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.045151] (odin_ros_driver) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.23 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.103369] (-) TimerEvent: {}
+[3.106259] (odin_ros_driver) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.23 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[3.111480] (odin_ros_driver) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.112538] (odin_ros_driver) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.112610] (odin_ros_driver) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.114333] (odin_ros_driver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.203483] (-) TimerEvent: {}
+[3.303655] (-) TimerEvent: {}
+[3.329008] (odin_ros_driver) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.403765] (-) TimerEvent: {}
+[3.504023] (-) TimerEvent: {}
+[3.598559] (odin_ros_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.604079] (-) TimerEvent: {}
+[3.701793] (odin_ros_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.704169] (-) TimerEvent: {}
+[3.725467] (odin_ros_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.727750] (odin_ros_driver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.751453] (odin_ros_driver) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.751563] (odin_ros_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.751601] (odin_ros_driver) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.751633] (odin_ros_driver) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.769950] (odin_ros_driver) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.804276] (-) TimerEvent: {}
+[3.855461] (odin_ros_driver) StdoutLine: {'line': b'-- Installing launch_ROS2 directory to share/odin_ros_driver/launch\n'}
+[3.861333] (odin_ros_driver) StdoutLine: {'line': b'-- Install targets added\n'}
+[3.861408] (odin_ros_driver) StdoutLine: {'line': b'-- =======================================\n'}
+[3.861443] (odin_ros_driver) StdoutLine: {'line': b'-- Project: odin_ros_driver\n'}
+[3.861473] (odin_ros_driver) StdoutLine: {'line': b'-- ROS_VERSION: ROS2\n'}
+[3.861501] (odin_ros_driver) StdoutLine: {'line': b'-- Target platform: x86\n'}
+[3.861528] (odin_ros_driver) StdoutLine: {'line': b'-- lydHostApi library: /home/slam/r2_ws/odin1_ws/src/odin_ros_driver/lib/liblydHostApi_amd.a\n'}
+[3.861556] (odin_ros_driver) StdoutLine: {'line': b'-- libusb library: usb-1.0\n'}
+[3.861583] (odin_ros_driver) StdoutLine: {'line': b'-- =======================================\n'}
+[3.861609] (odin_ros_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.904400] (-) TimerEvent: {}
+[3.972769] (odin_ros_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[4.001364] (odin_ros_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/slam/r2_ws/odin1_ws/build/odin_ros_driver\n'}
+[4.004494] (-) TimerEvent: {}
+[4.014876] (odin_ros_driver) CommandEnded: {'returncode': 0}
+[4.015522] (odin_ros_driver) JobProgress: {'identifier': 'odin_ros_driver', 'progress': 'build'}
+[4.016141] (odin_ros_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/slam/r2_ws/odin1_ws/build/odin_ros_driver', '--', '-j10', '-l10'], 'cwd': '/home/slam/r2_ws/odin1_ws/build/odin_ros_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/slam'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro[1M]'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-278_agent'), ('USER', 'slam'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.278'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CLAUDE_CODE_MESSAGING_TOKEN', '497967be9d33e897f122397be48a9530'), ('HOME', '/home/slam'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/slam/r2_ws/odin1_ws/src/odin_ros_driver'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-cfeee4f1-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('MANAGERPID', '953'), ('SYSTEMD_EXEC_PID', '1115'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1792'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'slam'), ('JOURNAL_STREAM', '8:2728'), ('_', '/home/slam/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'slam'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/slam/.local/bin:/home/slam/.local/bin:/home/slam/.local/bin:/opt/ros/humble/bin:/home/slam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-mix:@/tmp/.ICE-unix/1076,unix/robot-mix:/tmp/.ICE-unix/1076'), ('INVOCATION_ID', 'f5bc55949d794918b5c212d3c2654561'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('CLAUDE_PID', '2281'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T4HTV3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-2cf0b1f2751a49208ea01ddcbbe17ca0'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '805de6d3-46db-4668-8f10-ad1b10cd1b05'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/slam/r2_ws/odin1_ws/build/odin_ros_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/slam/.config/Code/CachedData/bf9252a2fb45be6893dd8870c0bf37e2e1766d61'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/slam/.vscode/extensions/anthropic.claude-code-2.1.278-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('COLCON', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/2281.sock'), ('VSCODE_PID', '1792'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.063907] (odin_ros_driver) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[4.078379] (odin_ros_driver) StdoutLine: {'line': b'[  2%] Building CXX object CMakeFiles/pointcloud_depth_converter_ros2.dir/src/pointcloud_depth_converter.cpp.o\n'}
+[4.078735] (odin_ros_driver) StdoutLine: {'line': b'[  3%] Building CXX object CMakeFiles/image_overlay_node.dir/src/image_overlay_node.cpp.o\n'}
+[4.080118] (odin_ros_driver) StdoutLine: {'line': b'[  4%] Generating C++ code for ROS interfaces\n'}
+[4.080349] (odin_ros_driver) StdoutLine: {'line': b'[  5%] Building CXX object CMakeFiles/cloud_reprojector_ros2.dir/src/cloud_reprojector.cpp.o\n'}
+[4.083465] (odin_ros_driver) StdoutLine: {'line': b'[  6%] Generating Rust code for ROS interfaces\n'}
+[4.093378] (odin_ros_driver) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_odin_ros_driver\n'}
+[4.104669] (-) TimerEvent: {}
+[4.204915] (-) TimerEvent: {}
+[4.277674] (odin_ros_driver) StdoutLine: {'line': b'running egg_info\n'}
+[4.278171] (odin_ros_driver) StdoutLine: {'line': b'creating odin_ros_driver.egg-info\n'}
+[4.278287] (odin_ros_driver) StdoutLine: {'line': b'writing odin_ros_driver.egg-info/PKG-INFO\n'}
+[4.278569] (odin_ros_driver) StdoutLine: {'line': b'writing dependency_links to odin_ros_driver.egg-info/dependency_links.txt\n'}
+[4.278673] (odin_ros_driver) StdoutLine: {'line': b'writing top-level names to odin_ros_driver.egg-info/top_level.txt\n'}
+[4.278748] (odin_ros_driver) StdoutLine: {'line': b"writing manifest file 'odin_ros_driver.egg-info/SOURCES.txt'\n"}
+[4.280109] (odin_ros_driver) StdoutLine: {'line': b"reading manifest file 'odin_ros_driver.egg-info/SOURCES.txt'\n"}
+[4.280434] (odin_ros_driver) StdoutLine: {'line': b"writing manifest file 'odin_ros_driver.egg-info/SOURCES.txt'\n"}
+[4.300401] (odin_ros_driver) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_odin_ros_driver_egg\n'}
+[4.305357] (-) TimerEvent: {}
+[4.405572] (-) TimerEvent: {}
+[4.505927] (-) TimerEvent: {}
+[4.541175] (odin_ros_driver) StdoutLine: {'line': b'[  6%] Built target odin_ros_driver__rs\n'}
+[4.606130] (-) TimerEvent: {}
+[4.706341] (-) TimerEvent: {}
+[4.806641] (-) TimerEvent: {}
+[4.820723] (odin_ros_driver) StdoutLine: {'line': b'[  6%] Built target odin_ros_driver__cpp\n'}
+[4.830084] (odin_ros_driver) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/get_ae__functions.c.o\n'}
+[4.830240] (odin_ros_driver) StdoutLine: {'line': b'[  8%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/get_awb__functions.c.o\n'}
+[4.830282] (odin_ros_driver) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/set_awb__functions.c.o\n'}
+[4.831051] (odin_ros_driver) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/set_ae__functions.c.o\n'}
+[4.832136] (odin_ros_driver) StdoutLine: {'line': b'[ 11%] Generating C++ type support dispatch for ROS interfaces\n'}
+[4.833566] (odin_ros_driver) StdoutLine: {'line': b'[ 12%] Generating C++ introspection for ROS interfaces\n'}
+[4.838740] (odin_ros_driver) StdoutLine: {'line': b'[ 13%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[4.889946] (odin_ros_driver) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/get_device_logs__functions.c.o\n'}
+[4.899468] (odin_ros_driver) StdoutLine: {'line': b'[ 15%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/save_map__functions.c.o\n'}
+[4.900589] (odin_ros_driver) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/reset_algo__functions.c.o\n'}
+[4.907944] (-) TimerEvent: {}
+[4.974605] (odin_ros_driver) StdoutLine: {'line': b'[ 17%] Linking C shared library libodin_ros_driver__rosidl_generator_c.so\n'}
+[5.008051] (-) TimerEvent: {}
+[5.011987] (odin_ros_driver) StdoutLine: {'line': b'[ 17%] Built target odin_ros_driver__rosidl_generator_c\n'}
+[5.020966] (odin_ros_driver) StdoutLine: {'line': b'[ 18%] Generating C type support dispatch for ROS interfaces\n'}
+[5.023732] (odin_ros_driver) StdoutLine: {'line': b'[ 20%] Generating C introspection for ROS interfaces\n'}
+[5.023950] (odin_ros_driver) StdoutLine: {'line': b'[ 20%] Generating C type support for eProsima Fast-RTPS\n'}
+[5.109930] (-) TimerEvent: {}
+[5.210089] (-) TimerEvent: {}
+[5.310239] (-) TimerEvent: {}
+[5.389190] (odin_ros_driver) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/get_ae__type_support.cpp.o\n'}
+[5.393098] (odin_ros_driver) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/get_awb__type_support.cpp.o\n'}
+[5.410356] (-) TimerEvent: {}
+[5.510559] (-) TimerEvent: {}
+[5.540640] (odin_ros_driver) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_ae__type_support.cpp.o\n'}
+[5.597959] (odin_ros_driver) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/get_ae__type_support.cpp.o\n'}
+[5.610672] (-) TimerEvent: {}
+[5.621391] (odin_ros_driver) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/set_ae__type_support.cpp.o\n'}
+[5.626589] (odin_ros_driver) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/get_awb__type_support.cpp.o\n'}
+[5.628284] (odin_ros_driver) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/get_ae__type_support.cpp.o\n'}
+[5.631505] (odin_ros_driver) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/set_ae__type_support.cpp.o\n'}
+[5.661429] (odin_ros_driver) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/get_awb__type_support.cpp.o\n'}
+[5.661882] (odin_ros_driver) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/set_awb__type_support.cpp.o\n'}
+[5.702788] (odin_ros_driver) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/get_device_logs__type_support.cpp.o\n'}
+[5.712966] (-) TimerEvent: {}
+[5.751954] (odin_ros_driver) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/save_map__type_support.cpp.o\n'}
+[5.806229] (odin_ros_driver) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/reset_algo__type_support.cpp.o\n'}
+[5.813074] (-) TimerEvent: {}
+[5.839840] (odin_ros_driver) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/set_awb__type_support.cpp.o\n'}
+[5.850316] (odin_ros_driver) StdoutLine: {'line': b'[ 36%] Linking CXX shared library libodin_ros_driver__rosidl_typesupport_c.so\n'}
+[5.850971] (odin_ros_driver) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/get_ae__type_support_c.cpp.o\n'}
+[5.869116] (odin_ros_driver) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_awb__type_support.cpp.o\n'}
+[5.913366] (-) TimerEvent: {}
+[5.925043] (odin_ros_driver) StdoutLine: {'line': b'[ 38%] Built target odin_ros_driver__rosidl_typesupport_c\n'}
+[5.939108] (odin_ros_driver) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/get_awb__type_support_c.cpp.o\n'}
+[6.015961] (odin_ros_driver) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/set_ae__type_support_c.cpp.o\n'}
+[6.016190] (-) TimerEvent: {}
+[6.028121] (odin_ros_driver) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/set_ae__type_support.cpp.o\n'}
+[6.076870] (odin_ros_driver) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/get_device_logs__type_support.cpp.o\n'}
+[6.116365] (-) TimerEvent: {}
+[6.188177] (odin_ros_driver) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/set_ae__type_support.cpp.o\n'}
+[6.216475] (-) TimerEvent: {}
+[6.281914] (odin_ros_driver) StdoutLine: {'line': b'[ 44%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/get_ae__type_support.c.o\n'}
+[6.295166] (odin_ros_driver) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/save_map__type_support.cpp.o\n'}
+[6.313201] (odin_ros_driver) StdoutLine: {'line': b'[ 46%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/get_awb__type_support.c.o\n'}
+[6.319142] (-) TimerEvent: {}
+[6.344146] (odin_ros_driver) StdoutLine: {'line': b'[ 47%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/set_ae__type_support.c.o\n'}
+[6.364614] (odin_ros_driver) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/set_awb__type_support.cpp.o\n'}
+[6.382468] (odin_ros_driver) StdoutLine: {'line': b'[ 49%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/set_awb__type_support.c.o\n'}
+[6.393008] (odin_ros_driver) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/set_awb__type_support.cpp.o\n'}
+[6.419519] (odin_ros_driver) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/set_awb__type_support_c.cpp.o\n'}
+[6.419682] (-) TimerEvent: {}
+[6.421615] (odin_ros_driver) StdoutLine: {'line': b'[ 52%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/get_device_logs__type_support.c.o\n'}
+[6.440186] (odin_ros_driver) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/reset_algo__type_support.cpp.o\n'}
+[6.470263] (odin_ros_driver) StdoutLine: {'line': b'[ 54%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/save_map__type_support.c.o\n'}
+[6.515481] (odin_ros_driver) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/get_device_logs__type_support_c.cpp.o\n'}
+[6.518478] (odin_ros_driver) StdoutLine: {'line': b'[ 56%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/reset_algo__type_support.c.o\n'}
+[6.519784] (-) TimerEvent: {}
+[6.567602] (odin_ros_driver) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/get_device_logs__type_support.cpp.o\n'}
+[6.569134] (odin_ros_driver) StdoutLine: {'line': b'[ 58%] Linking C shared library libodin_ros_driver__rosidl_typesupport_introspection_c.so\n'}
+[6.619943] (-) TimerEvent: {}
+[6.621989] (odin_ros_driver) StdoutLine: {'line': b'[ 58%] Built target odin_ros_driver__rosidl_typesupport_introspection_c\n'}
+[6.636060] (odin_ros_driver) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_device_logs__type_support.cpp.o\n'}
+[6.666276] (odin_ros_driver) StdoutLine: {'line': b'[ 60%] Linking CXX shared library libodin_ros_driver__rosidl_typesupport_cpp.so\n'}
+[6.697977] (odin_ros_driver) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/save_map__type_support.cpp.o\n'}
+[6.703331] (odin_ros_driver) StdoutLine: {'line': b'[ 61%] Built target odin_ros_driver__rosidl_typesupport_cpp\n'}
+[6.710118] (odin_ros_driver) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/save_map__type_support.cpp.o\n'}
+[6.720062] (-) TimerEvent: {}
+[6.763004] (odin_ros_driver) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/reset_algo__type_support.cpp.o\n'}
+[6.820209] (-) TimerEvent: {}
+[6.891513] (odin_ros_driver) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/save_map__type_support_c.cpp.o\n'}
+[6.920357] (-) TimerEvent: {}
+[6.922691] (odin_ros_driver) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/reset_algo__type_support.cpp.o\n'}
+[7.020480] (-) TimerEvent: {}
+[7.023717] (odin_ros_driver) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/host_sdk_sample.dir/src/host_sdk_sample.cpp.o\n'}
+[7.032979] (odin_ros_driver) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/host_sdk_sample.dir/src/yaml_parser.cpp.o\n'}
+[7.039561] (odin_ros_driver) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/reset_algo__type_support_c.cpp.o\n'}
+[7.085092] (odin_ros_driver) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/host_sdk_sample.dir/src/rawCloudRender.cpp.o\n'}
+[7.120635] (-) TimerEvent: {}
+[7.149200] (odin_ros_driver) StdoutLine: {'line': b'[ 71%] Linking CXX shared library libodin_ros_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.220753] (-) TimerEvent: {}
+[7.240702] (odin_ros_driver) StdoutLine: {'line': b'[ 72%] Linking CXX shared library libodin_ros_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[7.256989] (odin_ros_driver) StdoutLine: {'line': b'[ 72%] Built target odin_ros_driver__rosidl_typesupport_fastrtps_cpp\n'}
+[7.262238] (odin_ros_driver) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/host_sdk_sample.dir/src/camera_pose_visualization.cpp.o\n'}
+[7.312714] (odin_ros_driver) StdoutLine: {'line': b'[ 73%] Built target odin_ros_driver__rosidl_typesupport_introspection_cpp\n'}
+[7.320972] (-) TimerEvent: {}
+[7.353347] (odin_ros_driver) StdoutLine: {'line': b'[ 74%] Linking CXX shared library libodin_ros_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[7.421068] (-) TimerEvent: {}
+[7.454746] (odin_ros_driver) StdoutLine: {'line': b'[ 74%] Built target odin_ros_driver__rosidl_typesupport_fastrtps_c\n'}
+[7.481578] (odin_ros_driver) StdoutLine: {'line': b'[ 74%] Built target odin_ros_driver\n'}
+[7.505642] (odin_ros_driver) StdoutLine: {'line': b'[ 75%] Generating Python code for ROS interfaces\n'}
+[7.521232] (-) TimerEvent: {}
+[7.621505] (-) TimerEvent: {}
+[7.721775] (-) TimerEvent: {}
+[7.822071] (-) TimerEvent: {}
+[7.922349] (-) TimerEvent: {}
+[8.022650] (-) TimerEvent: {}
+[8.122945] (-) TimerEvent: {}
+[8.223177] (-) TimerEvent: {}
+[8.323382] (-) TimerEvent: {}
+[8.423648] (-) TimerEvent: {}
+[8.523960] (-) TimerEvent: {}
+[8.624267] (-) TimerEvent: {}
+[8.726957] (-) TimerEvent: {}
+[8.827190] (-) TimerEvent: {}
+[8.927426] (-) TimerEvent: {}
+[9.027754] (-) TimerEvent: {}
+[9.128021] (-) TimerEvent: {}
+[9.228983] (-) TimerEvent: {}
+[9.268677] (odin_ros_driver) StdoutLine: {'line': b'[ 75%] Built target odin_ros_driver__py\n'}
+[9.293617] (odin_ros_driver) StdoutLine: {'line': b'[ 76%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_get_awb_s.c.o\n'}
+[9.297836] (odin_ros_driver) StdoutLine: {'line': b'[ 77%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_get_ae_s.c.o\n'}
+[9.298566] (odin_ros_driver) StdoutLine: {'line': b'[ 78%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_set_ae_s.c.o\n'}
+[9.329110] (-) TimerEvent: {}
+[9.418122] (odin_ros_driver) StdoutLine: {'line': b'[ 79%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_set_awb_s.c.o\n'}
+[9.424022] (odin_ros_driver) StdoutLine: {'line': b'[ 80%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_get_device_logs_s.c.o\n'}
+[9.429264] (-) TimerEvent: {}
+[9.430308] (odin_ros_driver) StdoutLine: {'line': b'[ 81%] Linking CXX shared library libcloud_reprojector_ros2.so\n'}
+[9.471981] (odin_ros_driver) StdoutLine: {'line': b'[ 82%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_save_map_s.c.o\n'}
+[9.514183] (odin_ros_driver) StdoutLine: {'line': b'[ 83%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_reset_algo_s.c.o\n'}
+[9.529425] (-) TimerEvent: {}
+[9.610787] (odin_ros_driver) StdoutLine: {'line': b'[ 84%] Linking C shared library rosidl_generator_py/odin_ros_driver/libodin_ros_driver__rosidl_generator_py.so\n'}
+[9.629577] (-) TimerEvent: {}
+[9.656393] (odin_ros_driver) StdoutLine: {'line': b'[ 84%] Built target odin_ros_driver__rosidl_generator_py\n'}
+[9.679275] (odin_ros_driver) StdoutLine: {'line': b'[ 85%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/odin_ros_driver/_odin_ros_driver_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[9.679522] (odin_ros_driver) StdoutLine: {'line': b'[ 86%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/odin_ros_driver/_odin_ros_driver_s.ep.rosidl_typesupport_c.c.o\n'}
+[9.688901] (odin_ros_driver) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/odin_ros_driver/_odin_ros_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[9.730030] (-) TimerEvent: {}
+[9.794370] (odin_ros_driver) StdoutLine: {'line': b'[ 88%] Linking C shared library rosidl_generator_py/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.802560] (odin_ros_driver) StdoutLine: {'line': b'[ 89%] Linking C shared library rosidl_generator_py/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.830157] (-) TimerEvent: {}
+[9.832938] (odin_ros_driver) StdoutLine: {'line': b'[ 89%] Built target odin_ros_driver__rosidl_typesupport_c__pyext\n'}
+[9.839219] (odin_ros_driver) StdoutLine: {'line': b'[ 89%] Built target odin_ros_driver__rosidl_typesupport_introspection_c__pyext\n'}
+[9.868856] (odin_ros_driver) StdoutLine: {'line': b'[ 90%] Linking C shared library rosidl_generator_py/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.916490] (odin_ros_driver) StdoutLine: {'line': b'[ 90%] Built target odin_ros_driver__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.930269] (-) TimerEvent: {}
+[10.030570] (-) TimerEvent: {}
+[10.130832] (-) TimerEvent: {}
+[10.231174] (-) TimerEvent: {}
+[10.331482] (-) TimerEvent: {}
+[10.431906] (-) TimerEvent: {}
+[10.532176] (-) TimerEvent: {}
+[10.632440] (-) TimerEvent: {}
+[10.732812] (-) TimerEvent: {}
+[10.833149] (-) TimerEvent: {}
+[10.933531] (-) TimerEvent: {}
+[11.033871] (-) TimerEvent: {}
+[11.134250] (-) TimerEvent: {}
+[11.234583] (-) TimerEvent: {}
+[11.334909] (-) TimerEvent: {}
+[11.388367] (odin_ros_driver) StdoutLine: {'line': b'[ 91%] Linking CXX shared library libpointcloud_depth_converter_ros2.so\n'}
+[11.435138] (-) TimerEvent: {}
+[11.535341] (-) TimerEvent: {}
+[11.635665] (-) TimerEvent: {}
+[11.735996] (-) TimerEvent: {}
+[11.836329] (-) TimerEvent: {}
+[11.936659] (-) TimerEvent: {}
+[12.036990] (-) TimerEvent: {}
+[12.137343] (-) TimerEvent: {}
+[12.237689] (-) TimerEvent: {}
+[12.338008] (-) TimerEvent: {}
+[12.438317] (-) TimerEvent: {}
+[12.538618] (-) TimerEvent: {}
+[12.638928] (-) TimerEvent: {}
+[12.739241] (-) TimerEvent: {}
+[12.826475] (odin_ros_driver) StdoutLine: {'line': b'[ 91%] Built target cloud_reprojector_ros2\n'}
+[12.839344] (-) TimerEvent: {}
+[12.845510] (odin_ros_driver) StdoutLine: {'line': b'[ 92%] Building CXX object CMakeFiles/cloud_reprojection_ros2_node.dir/src/cloud_reprojection_ros.cpp.o\n'}
+[12.939493] (-) TimerEvent: {}
+[13.039805] (-) TimerEvent: {}
+[13.140087] (-) TimerEvent: {}
+[13.240287] (-) TimerEvent: {}
+[13.340595] (-) TimerEvent: {}
+[13.440914] (-) TimerEvent: {}
+[13.541228] (-) TimerEvent: {}
+[13.641555] (-) TimerEvent: {}
+[13.741867] (-) TimerEvent: {}
+[13.842227] (-) TimerEvent: {}
+[13.942543] (-) TimerEvent: {}
+[14.042856] (-) TimerEvent: {}
+[14.143081] (-) TimerEvent: {}
+[14.243448] (-) TimerEvent: {}
+[14.343769] (-) TimerEvent: {}
+[14.380836] (odin_ros_driver) StderrLine: {'line': b'/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp: In function \xe2\x80\x98void lidar_device_callback(const lidar_device_info_t*, bool)\xe2\x80\x99:\n'}
+[14.381129] (odin_ros_driver) StderrLine: {'line': b'/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1326:19: warning: ignoring return value of \xe2\x80\x98int system(const char*)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Wunused-result]\n'}
+[14.381216] (odin_ros_driver) StderrLine: {'line': b' 1326 |             system("pkill -f rviz");\n'}
+[14.381291] (odin_ros_driver) StderrLine: {'line': b'      |             ~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[14.381362] (odin_ros_driver) StderrLine: {'line': b'/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1434:19: warning: ignoring return value of \xe2\x80\x98int system(const char*)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Wunused-result]\n'}
+[14.381437] (odin_ros_driver) StderrLine: {'line': b' 1434 |             system("pkill -f rviz");\n'}
+[14.381507] (odin_ros_driver) StderrLine: {'line': b'      |             ~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[14.381577] (odin_ros_driver) StderrLine: {'line': b'/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1435:19: warning: ignoring return value of \xe2\x80\x98int system(const char*)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Wunused-result]\n'}
+[14.381648] (odin_ros_driver) StderrLine: {'line': b' 1435 |             system("pkill -f host_sdk_sample");\n'}
+[14.381734] (odin_ros_driver) StderrLine: {'line': b'      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[14.381804] (odin_ros_driver) StderrLine: {'line': b'/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1473:23: warning: ignoring return value of \xe2\x80\x98int system(const char*)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Wunused-result]\n'}
+[14.381873] (odin_ros_driver) StderrLine: {'line': b' 1473 |                 system("pkill -f rviz");\n'}
+[14.381961] (odin_ros_driver) StderrLine: {'line': b'      |                 ~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[14.382032] (odin_ros_driver) StderrLine: {'line': b'/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1474:23: warning: ignoring return value of \xe2\x80\x98int system(const char*)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Wunused-result]\n'}
+[14.382101] (odin_ros_driver) StderrLine: {'line': b' 1474 |                 system("pkill -f host_sdk_sample");\n'}
+[14.382170] (odin_ros_driver) StderrLine: {'line': b'      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[14.382240] (odin_ros_driver) StderrLine: {'line': b'/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1529:23: warning: ignoring return value of \xe2\x80\x98int system(const char*)\xe2\x80\x99 declared with attribute \xe2\x80\x98warn_unused_result\xe2\x80\x99 [-Wunused-result]\n'}
+[14.382310] (odin_ros_driver) StderrLine: {'line': b' 1529 |                 system("pkill -f rviz");\n'}
+[14.382383] (odin_ros_driver) StderrLine: {'line': b'      |                 ~~~~~~^~~~~~~~~~~~~~~~~\n'}
+[14.444004] (-) TimerEvent: {}
+[14.474266] (odin_ros_driver) StdoutLine: {'line': b'[ 92%] Built target pointcloud_depth_converter_ros2\n'}
+[14.493113] (odin_ros_driver) StdoutLine: {'line': b'[ 93%] Building CXX object CMakeFiles/depth_image_ros2_node_lib.dir/src/depth_image_ros2_node.cpp.o\n'}
+[14.544126] (-) TimerEvent: {}
+[14.644429] (-) TimerEvent: {}
+[14.744761] (-) TimerEvent: {}
+[14.845084] (-) TimerEvent: {}
+[14.945415] (-) TimerEvent: {}
+[15.045729] (-) TimerEvent: {}
+[15.146089] (-) TimerEvent: {}
+[15.246421] (-) TimerEvent: {}
+[15.346653] (-) TimerEvent: {}
+[15.446986] (-) TimerEvent: {}
+[15.547332] (-) TimerEvent: {}
+[15.647573] (-) TimerEvent: {}
+[15.747908] (-) TimerEvent: {}
+[15.848242] (-) TimerEvent: {}
+[15.948575] (-) TimerEvent: {}
+[16.048935] (-) TimerEvent: {}
+[16.149277] (-) TimerEvent: {}
+[16.249645] (-) TimerEvent: {}
+[16.350010] (-) TimerEvent: {}
+[16.450362] (-) TimerEvent: {}
+[16.550638] (-) TimerEvent: {}
+[16.650933] (-) TimerEvent: {}
+[16.751136] (-) TimerEvent: {}
+[16.851322] (-) TimerEvent: {}
+[16.951613] (-) TimerEvent: {}
+[17.051905] (-) TimerEvent: {}
+[17.152091] (-) TimerEvent: {}
+[17.252273] (-) TimerEvent: {}
+[17.352498] (-) TimerEvent: {}
+[17.452823] (-) TimerEvent: {}
+[17.553098] (-) TimerEvent: {}
+[17.573699] (odin_ros_driver) StdoutLine: {'line': b'[ 94%] Linking CXX executable image_overlay_node\n'}
+[17.653230] (-) TimerEvent: {}
+[17.753453] (-) TimerEvent: {}
+[17.853757] (-) TimerEvent: {}
+[17.954044] (-) TimerEvent: {}
+[17.990897] (odin_ros_driver) StdoutLine: {'line': b'[ 94%] Built target image_overlay_node\n'}
+[18.054250] (-) TimerEvent: {}
+[18.154476] (-) TimerEvent: {}
+[18.254750] (-) TimerEvent: {}
+[18.355036] (-) TimerEvent: {}
+[18.455323] (-) TimerEvent: {}
+[18.555603] (-) TimerEvent: {}
+[18.655898] (-) TimerEvent: {}
+[18.756091] (-) TimerEvent: {}
+[18.856373] (-) TimerEvent: {}
+[18.956666] (-) TimerEvent: {}
+[19.056966] (-) TimerEvent: {}
+[19.157260] (-) TimerEvent: {}
+[19.257465] (-) TimerEvent: {}
+[19.357729] (-) TimerEvent: {}
+[19.457995] (-) TimerEvent: {}
+[19.558163] (-) TimerEvent: {}
+[19.658357] (-) TimerEvent: {}
+[19.758630] (-) TimerEvent: {}
+[19.858903] (-) TimerEvent: {}
+[19.959069] (-) TimerEvent: {}
+[20.059242] (-) TimerEvent: {}
+[20.159435] (-) TimerEvent: {}
+[20.259702] (-) TimerEvent: {}
+[20.359984] (-) TimerEvent: {}
+[20.460155] (-) TimerEvent: {}
+[20.560348] (-) TimerEvent: {}
+[20.660621] (-) TimerEvent: {}
+[20.760895] (-) TimerEvent: {}
+[20.861056] (-) TimerEvent: {}
+[20.961218] (-) TimerEvent: {}
+[21.061436] (-) TimerEvent: {}
+[21.161705] (-) TimerEvent: {}
+[21.261976] (-) TimerEvent: {}
+[21.362148] (-) TimerEvent: {}
+[21.462341] (-) TimerEvent: {}
+[21.562624] (-) TimerEvent: {}
+[21.662920] (-) TimerEvent: {}
+[21.763098] (-) TimerEvent: {}
+[21.863271] (-) TimerEvent: {}
+[21.963501] (-) TimerEvent: {}
+[22.063810] (-) TimerEvent: {}
+[22.164042] (-) TimerEvent: {}
+[22.264221] (-) TimerEvent: {}
+[22.364417] (-) TimerEvent: {}
+[22.464687] (-) TimerEvent: {}
+[22.564964] (-) TimerEvent: {}
+[22.665128] (-) TimerEvent: {}
+[22.765295] (-) TimerEvent: {}
+[22.865573] (-) TimerEvent: {}
+[22.965859] (-) TimerEvent: {}
+[23.066105] (-) TimerEvent: {}
+[23.166284] (-) TimerEvent: {}
+[23.266507] (-) TimerEvent: {}
+[23.366781] (-) TimerEvent: {}
+[23.467042] (-) TimerEvent: {}
+[23.567221] (-) TimerEvent: {}
+[23.667422] (-) TimerEvent: {}
+[23.767692] (-) TimerEvent: {}
+[23.867965] (-) TimerEvent: {}
+[23.968132] (-) TimerEvent: {}
+[24.068313] (-) TimerEvent: {}
+[24.168543] (-) TimerEvent: {}
+[24.268775] (-) TimerEvent: {}
+[24.369062] (-) TimerEvent: {}
+[24.469268] (-) TimerEvent: {}
+[24.569476] (-) TimerEvent: {}
+[24.669690] (-) TimerEvent: {}
+[24.770011] (-) TimerEvent: {}
+[24.870179] (-) TimerEvent: {}
+[24.970419] (-) TimerEvent: {}
+[25.070746] (-) TimerEvent: {}
+[25.171040] (-) TimerEvent: {}
+[25.271238] (-) TimerEvent: {}
+[25.371484] (-) TimerEvent: {}
+[25.471746] (-) TimerEvent: {}
+[25.572116] (-) TimerEvent: {}
+[25.672391] (-) TimerEvent: {}
+[25.772665] (-) TimerEvent: {}
+[25.872934] (-) TimerEvent: {}
+[25.973090] (-) TimerEvent: {}
+[26.073257] (-) TimerEvent: {}
+[26.173474] (-) TimerEvent: {}
+[26.273758] (-) TimerEvent: {}
+[26.374024] (-) TimerEvent: {}
+[26.474193] (-) TimerEvent: {}
+[26.574476] (-) TimerEvent: {}
+[26.674845] (-) TimerEvent: {}
+[26.775058] (-) TimerEvent: {}
+[26.875367] (-) TimerEvent: {}
+[26.975642] (-) TimerEvent: {}
+[27.075909] (-) TimerEvent: {}
+[27.176179] (-) TimerEvent: {}
+[27.276455] (-) TimerEvent: {}
+[27.376653] (-) TimerEvent: {}
+[27.476929] (-) TimerEvent: {}
+[27.577192] (-) TimerEvent: {}
+[27.677471] (-) TimerEvent: {}
+[27.777742] (-) TimerEvent: {}
+[27.878004] (-) TimerEvent: {}
+[27.978185] (-) TimerEvent: {}
+[28.078473] (-) TimerEvent: {}
+[28.178755] (-) TimerEvent: {}
+[28.279050] (-) TimerEvent: {}
+[28.379344] (-) TimerEvent: {}
+[28.479624] (-) TimerEvent: {}
+[28.579902] (-) TimerEvent: {}
+[28.680175] (-) TimerEvent: {}
+[28.780446] (-) TimerEvent: {}
+[28.880705] (-) TimerEvent: {}
+[28.980962] (-) TimerEvent: {}
+[29.081217] (-) TimerEvent: {}
+[29.181414] (-) TimerEvent: {}
+[29.281678] (-) TimerEvent: {}
+[29.381946] (-) TimerEvent: {}
+[29.482218] (-) TimerEvent: {}
+[29.582479] (-) TimerEvent: {}
+[29.682753] (-) TimerEvent: {}
+[29.783034] (-) TimerEvent: {}
+[29.883312] (-) TimerEvent: {}
+[29.983584] (-) TimerEvent: {}
+[30.004798] (<colcon_parallel_executor.executor.parallel.ParallelExecutorExtension object at 0x7f1f4635c9a0>) ParallelStatus: {'processing': ('odin_ros_driver',)}
+[30.083791] (-) TimerEvent: {}
+[30.184063] (-) TimerEvent: {}
+[30.284226] (-) TimerEvent: {}
+[30.384490] (-) TimerEvent: {}
+[30.484752] (-) TimerEvent: {}
+[30.585008] (-) TimerEvent: {}
+[30.685273] (-) TimerEvent: {}
+[30.785474] (-) TimerEvent: {}
+[30.885750] (-) TimerEvent: {}
+[30.985930] (-) TimerEvent: {}
+[31.086199] (-) TimerEvent: {}
+[31.186454] (-) TimerEvent: {}
+[31.286718] (-) TimerEvent: {}
+[31.387001] (-) TimerEvent: {}
+[31.487163] (-) TimerEvent: {}
+[31.587501] (-) TimerEvent: {}
+[31.687855] (-) TimerEvent: {}
+[31.788207] (-) TimerEvent: {}
+[31.888559] (-) TimerEvent: {}
+[31.988909] (-) TimerEvent: {}
+[32.089253] (-) TimerEvent: {}
+[32.189490] (-) TimerEvent: {}
+[32.289799] (-) TimerEvent: {}
+[32.304813] (odin_ros_driver) StdoutLine: {'line': b'[ 95%] Linking CXX executable host_sdk_sample\n'}
+[32.389997] (-) TimerEvent: {}
+[32.490171] (-) TimerEvent: {}
+[32.590378] (-) TimerEvent: {}
+[32.690637] (-) TimerEvent: {}
+[32.790894] (-) TimerEvent: {}
+[32.891274] (-) TimerEvent: {}
+[32.991494] (-) TimerEvent: {}
+[33.091762] (-) TimerEvent: {}
+[33.192018] (-) TimerEvent: {}
+[33.292182] (-) TimerEvent: {}
+[33.392372] (-) TimerEvent: {}
+[33.492633] (-) TimerEvent: {}
+[33.520037] (odin_ros_driver) StdoutLine: {'line': b'[ 95%] Built target host_sdk_sample\n'}
+[33.592821] (-) TimerEvent: {}
+[33.693078] (-) TimerEvent: {}
+[33.793234] (-) TimerEvent: {}
+[33.893425] (-) TimerEvent: {}
+[33.993643] (-) TimerEvent: {}
+[34.093906] (-) TimerEvent: {}
+[34.194172] (-) TimerEvent: {}
+[34.294422] (-) TimerEvent: {}
+[34.394673] (-) TimerEvent: {}
+[34.494929] (-) TimerEvent: {}
+[34.595088] (-) TimerEvent: {}
+[34.695247] (-) TimerEvent: {}
+[34.795463] (-) TimerEvent: {}
+[34.895684] (-) TimerEvent: {}
+[34.995938] (-) TimerEvent: {}
+[35.096197] (-) TimerEvent: {}
+[35.196391] (-) TimerEvent: {}
+[35.296586] (-) TimerEvent: {}
+[35.396841] (-) TimerEvent: {}
+[35.497119] (-) TimerEvent: {}
+[35.597282] (-) TimerEvent: {}
+[35.697532] (-) TimerEvent: {}
+[35.797715] (-) TimerEvent: {}
+[35.897962] (-) TimerEvent: {}
+[35.998222] (-) TimerEvent: {}
+[36.098471] (-) TimerEvent: {}
+[36.198721] (-) TimerEvent: {}
+[36.298981] (-) TimerEvent: {}
+[36.399141] (-) TimerEvent: {}
+[36.499330] (-) TimerEvent: {}
+[36.599635] (-) TimerEvent: {}
+[36.699961] (-) TimerEvent: {}
+[36.800278] (-) TimerEvent: {}
+[36.900504] (-) TimerEvent: {}
+[37.000769] (-) TimerEvent: {}
+[37.016672] (odin_ros_driver) StdoutLine: {'line': b'[ 96%] Linking CXX executable cloud_reprojection_ros2_node\n'}
+[37.100962] (-) TimerEvent: {}
+[37.201224] (-) TimerEvent: {}
+[37.301491] (-) TimerEvent: {}
+[37.401749] (-) TimerEvent: {}
+[37.502026] (-) TimerEvent: {}
+[37.602197] (-) TimerEvent: {}
+[37.643234] (odin_ros_driver) StdoutLine: {'line': b'[ 96%] Built target cloud_reprojection_ros2_node\n'}
+[37.702387] (-) TimerEvent: {}
+[37.802635] (-) TimerEvent: {}
+[37.902893] (-) TimerEvent: {}
+[38.003178] (-) TimerEvent: {}
+[38.103379] (-) TimerEvent: {}
+[38.203629] (-) TimerEvent: {}
+[38.303932] (-) TimerEvent: {}
+[38.404226] (-) TimerEvent: {}
+[38.504487] (-) TimerEvent: {}
+[38.604801] (-) TimerEvent: {}
+[38.705004] (-) TimerEvent: {}
+[38.805165] (-) TimerEvent: {}
+[38.905432] (-) TimerEvent: {}
+[39.005694] (-) TimerEvent: {}
+[39.105953] (-) TimerEvent: {}
+[39.206210] (-) TimerEvent: {}
+[39.306475] (-) TimerEvent: {}
+[39.406735] (-) TimerEvent: {}
+[39.506993] (-) TimerEvent: {}
+[39.607264] (-) TimerEvent: {}
+[39.707458] (-) TimerEvent: {}
+[39.807722] (-) TimerEvent: {}
+[39.907924] (-) TimerEvent: {}
+[40.008083] (-) TimerEvent: {}
+[40.108244] (-) TimerEvent: {}
+[40.208464] (-) TimerEvent: {}
+[40.308624] (-) TimerEvent: {}
+[40.408937] (-) TimerEvent: {}
+[40.509106] (-) TimerEvent: {}
+[40.609276] (-) TimerEvent: {}
+[40.709473] (-) TimerEvent: {}
+[40.809885] (-) TimerEvent: {}
+[40.910222] (-) TimerEvent: {}
+[41.010494] (-) TimerEvent: {}
+[41.110771] (-) TimerEvent: {}
+[41.180275] (odin_ros_driver) StdoutLine: {'line': b'[ 97%] Linking CXX shared library libdepth_image_ros2_node_lib.so\n'}
+[41.210998] (-) TimerEvent: {}
+[41.311178] (-) TimerEvent: {}
+[41.411463] (-) TimerEvent: {}
+[41.511694] (-) TimerEvent: {}
+[41.611955] (-) TimerEvent: {}
+[41.692650] (odin_ros_driver) StdoutLine: {'line': b'[ 97%] Built target depth_image_ros2_node_lib\n'}
+[41.708928] (odin_ros_driver) StdoutLine: {'line': b'[ 98%] Building CXX object CMakeFiles/pcd2depth_ros2_node.dir/src/pcd2depth_ros2.cpp.o\n'}
+[41.712026] (-) TimerEvent: {}
+[41.812265] (-) TimerEvent: {}
+[41.912455] (-) TimerEvent: {}
+[42.012708] (-) TimerEvent: {}
+[42.112967] (-) TimerEvent: {}
+[42.213229] (-) TimerEvent: {}
+[42.313478] (-) TimerEvent: {}
+[42.413730] (-) TimerEvent: {}
+[42.513942] (-) TimerEvent: {}
+[42.614257] (-) TimerEvent: {}
+[42.714518] (-) TimerEvent: {}
+[42.814773] (-) TimerEvent: {}
+[42.915028] (-) TimerEvent: {}
+[43.015286] (-) TimerEvent: {}
+[43.115549] (-) TimerEvent: {}
+[43.215815] (-) TimerEvent: {}
+[43.316092] (-) TimerEvent: {}
+[43.416361] (-) TimerEvent: {}
+[43.516625] (-) TimerEvent: {}
+[43.616907] (-) TimerEvent: {}
+[43.717170] (-) TimerEvent: {}
+[43.817449] (-) TimerEvent: {}
+[43.917728] (-) TimerEvent: {}
+[44.017998] (-) TimerEvent: {}
+[44.118272] (-) TimerEvent: {}
+[44.218528] (-) TimerEvent: {}
+[44.318782] (-) TimerEvent: {}
+[44.419064] (-) TimerEvent: {}
+[44.519328] (-) TimerEvent: {}
+[44.619601] (-) TimerEvent: {}
+[44.719865] (-) TimerEvent: {}
+[44.820128] (-) TimerEvent: {}
+[44.920391] (-) TimerEvent: {}
+[45.020652] (-) TimerEvent: {}
+[45.120924] (-) TimerEvent: {}
+[45.221187] (-) TimerEvent: {}
+[45.321450] (-) TimerEvent: {}
+[45.421703] (-) TimerEvent: {}
+[45.521961] (-) TimerEvent: {}
+[45.622335] (-) TimerEvent: {}
+[45.722591] (-) TimerEvent: {}
+[45.822849] (-) TimerEvent: {}
+[45.923112] (-) TimerEvent: {}
+[46.023272] (-) TimerEvent: {}
+[46.123530] (-) TimerEvent: {}
+[46.223700] (-) TimerEvent: {}
+[46.323970] (-) TimerEvent: {}
+[46.424240] (-) TimerEvent: {}
+[46.524506] (-) TimerEvent: {}
+[46.624769] (-) TimerEvent: {}
+[46.725045] (-) TimerEvent: {}
+[46.825314] (-) TimerEvent: {}
+[46.925578] (-) TimerEvent: {}
+[47.025839] (-) TimerEvent: {}
+[47.126045] (-) TimerEvent: {}
+[47.226302] (-) TimerEvent: {}
+[47.326572] (-) TimerEvent: {}
+[47.426846] (-) TimerEvent: {}
+[47.527055] (-) TimerEvent: {}
+[47.627235] (-) TimerEvent: {}
+[47.727493] (-) TimerEvent: {}
+[47.827750] (-) TimerEvent: {}
+[47.928022] (-) TimerEvent: {}
+[48.028195] (-) TimerEvent: {}
+[48.128393] (-) TimerEvent: {}
+[48.228665] (-) TimerEvent: {}
+[48.328939] (-) TimerEvent: {}
+[48.429302] (-) TimerEvent: {}
+[48.529565] (-) TimerEvent: {}
+[48.629819] (-) TimerEvent: {}
+[48.730077] (-) TimerEvent: {}
+[48.830255] (-) TimerEvent: {}
+[48.930582] (-) TimerEvent: {}
+[49.030789] (-) TimerEvent: {}
+[49.131052] (-) TimerEvent: {}
+[49.231217] (-) TimerEvent: {}
+[49.331376] (-) TimerEvent: {}
+[49.431633] (-) TimerEvent: {}
+[49.531794] (-) TimerEvent: {}
+[49.632048] (-) TimerEvent: {}
+[49.732212] (-) TimerEvent: {}
+[49.832383] (-) TimerEvent: {}
+[49.932577] (-) TimerEvent: {}
+[50.032850] (-) TimerEvent: {}
+[50.133057] (-) TimerEvent: {}
+[50.233229] (-) TimerEvent: {}
+[50.333425] (-) TimerEvent: {}
+[50.433618] (-) TimerEvent: {}
+[50.533895] (-) TimerEvent: {}
+[50.634160] (-) TimerEvent: {}
+[50.734433] (-) TimerEvent: {}
+[50.834637] (-) TimerEvent: {}
+[50.934918] (-) TimerEvent: {}
+[51.035204] (-) TimerEvent: {}
+[51.135479] (-) TimerEvent: {}
+[51.235757] (-) TimerEvent: {}
+[51.336013] (-) TimerEvent: {}
+[51.436266] (-) TimerEvent: {}
+[51.536524] (-) TimerEvent: {}
+[51.636782] (-) TimerEvent: {}
+[51.737037] (-) TimerEvent: {}
+[51.837207] (-) TimerEvent: {}
+[51.937417] (-) TimerEvent: {}
+[52.037694] (-) TimerEvent: {}
+[52.137996] (-) TimerEvent: {}
+[52.238251] (-) TimerEvent: {}
+[52.338524] (-) TimerEvent: {}
+[52.438800] (-) TimerEvent: {}
+[52.539064] (-) TimerEvent: {}
+[52.639228] (-) TimerEvent: {}
+[52.739412] (-) TimerEvent: {}
+[52.839680] (-) TimerEvent: {}
+[52.939851] (-) TimerEvent: {}
+[53.040107] (-) TimerEvent: {}
+[53.140278] (-) TimerEvent: {}
+[53.240478] (-) TimerEvent: {}
+[53.340744] (-) TimerEvent: {}
+[53.441005] (-) TimerEvent: {}
+[53.541253] (-) TimerEvent: {}
+[53.641505] (-) TimerEvent: {}
+[53.741763] (-) TimerEvent: {}
+[53.842018] (-) TimerEvent: {}
+[53.942174] (-) TimerEvent: {}
+[54.042366] (-) TimerEvent: {}
+[54.142620] (-) TimerEvent: {}
+[54.242868] (-) TimerEvent: {}
+[54.343132] (-) TimerEvent: {}
+[54.443379] (-) TimerEvent: {}
+[54.543630] (-) TimerEvent: {}
+[54.643895] (-) TimerEvent: {}
+[54.744116] (-) TimerEvent: {}
+[54.844325] (-) TimerEvent: {}
+[54.944531] (-) TimerEvent: {}
+[55.044821] (-) TimerEvent: {}
+[55.145019] (-) TimerEvent: {}
+[55.245178] (-) TimerEvent: {}
+[55.345358] (-) TimerEvent: {}
+[55.445572] (-) TimerEvent: {}
+[55.545854] (-) TimerEvent: {}
+[55.646130] (-) TimerEvent: {}
+[55.746395] (-) TimerEvent: {}
+[55.846753] (-) TimerEvent: {}
+[55.908520] (odin_ros_driver) StdoutLine: {'line': b'[100%] Linking CXX executable pcd2depth_ros2_node\n'}
+[55.946982] (-) TimerEvent: {}
+[56.047252] (-) TimerEvent: {}
+[56.147527] (-) TimerEvent: {}
+[56.247791] (-) TimerEvent: {}
+[56.348071] (-) TimerEvent: {}
+[56.448332] (-) TimerEvent: {}
+[56.462049] (odin_ros_driver) StdoutLine: {'line': b'[100%] Built target pcd2depth_ros2_node\n'}
+[56.472085] (odin_ros_driver) CommandEnded: {'returncode': 0}
+[56.472776] (odin_ros_driver) JobProgress: {'identifier': 'odin_ros_driver', 'progress': 'install'}
+[56.482374] (odin_ros_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/slam/r2_ws/odin1_ws/build/odin_ros_driver'], 'cwd': '/home/slam/r2_ws/odin1_ws/build/odin_ros_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/slam'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro[1M]'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-278_agent'), ('USER', 'slam'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'wayland'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.278'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('CLAUDE_CODE_MESSAGING_TOKEN', '497967be9d33e897f122397be48a9530'), ('HOME', '/home/slam'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/slam/r2_ws/odin1_ws/src/odin_ros_driver'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-cfeee4f1-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('MANAGERPID', '953'), ('SYSTEMD_EXEC_PID', '1115'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1792'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'slam'), ('JOURNAL_STREAM', '8:2728'), ('_', '/home/slam/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'slam'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/slam/.local/bin:/home/slam/.local/bin:/home/slam/.local/bin:/opt/ros/humble/bin:/home/slam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot-mix:@/tmp/.ICE-unix/1076,unix/robot-mix:/tmp/.ICE-unix/1076'), ('INVOCATION_ID', 'f5bc55949d794918b5c212d3c2654561'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':0'), ('CLAUDE_PID', '2281'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T4HTV3'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-2cf0b1f2751a49208ea01ddcbbe17ca0'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '805de6d3-46db-4668-8f10-ad1b10cd1b05'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/slam/r2_ws/odin1_ws/build/odin_ros_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/slam/.config/Code/CachedData/bf9252a2fb45be6893dd8870c0bf37e2e1766d61'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/slam/.vscode/extensions/anthropic.claude-code-2.1.278-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('COLCON', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/2281.sock'), ('VSCODE_PID', '1792'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[56.492605] (odin_ros_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[56.492720] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/ament_index/resource_index/rosidl_interfaces/odin_ros_driver\n'}
+[56.493133] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver\n'}
+[56.493397] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv\n'}
+[56.493459] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/get_ae.h\n'}
+[56.493503] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/set_ae.h\n'}
+[56.493550] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/reset_algo.h\n'}
+[56.493679] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/save_map.h\n'}
+[56.493723] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail\n'}
+[56.493759] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__struct.h\n'}
+[56.493798] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__type_support.h\n'}
+[56.493836] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__functions.c\n'}
+[56.493872] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__type_support.h\n'}
+[56.493976] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__functions.h\n'}
+[56.494013] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__struct.h\n'}
+[56.494048] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__struct.h\n'}
+[56.494083] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__functions.c\n'}
+[56.494117] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__functions.c\n'}
+[56.494149] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__functions.h\n'}
+[56.494183] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__type_support.h\n'}
+[56.494283] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__struct.h\n'}
+[56.494318] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__type_support.h\n'}
+[56.494407] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__functions.c\n'}
+[56.494441] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__functions.c\n'}
+[56.494474] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__functions.h\n'}
+[56.494508] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__functions.c\n'}
+[56.494542] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__functions.h\n'}
+[56.494576] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__type_support.h\n'}
+[56.494610] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__struct.h\n'}
+[56.494642] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__type_support.h\n'}
+[56.494676] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__functions.c\n'}
+[56.494710] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__struct.h\n'}
+[56.494743] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__struct.h\n'}
+[56.494778] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__functions.h\n'}
+[56.494858] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__functions.h\n'}
+[56.494897] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__functions.h\n'}
+[56.494933] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__type_support.h\n'}
+[56.494997] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/get_awb.h\n'}
+[56.495027] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/set_awb.h\n'}
+[56.495057] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/get_device_logs.h\n'}
+[56.495088] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg\n'}
+[56.495120] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg/rosidl_generator_c__visibility_control.h\n'}
+[56.495151] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/library_path.sh\n'}
+[56.495184] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/library_path.dsv\n'}
+[56.495217] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_generator_c.so\n'}
+[56.495325] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_generator_c.so" to ""\n'}
+[56.495363] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver\n'}
+[56.495397] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv\n'}
+[56.495430] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail\n'}
+[56.495463] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[56.495496] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__rosidl_typesupport_fastrtps_c.h\n'}
+[56.495575] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__rosidl_typesupport_fastrtps_c.h\n'}
+[56.495611] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__rosidl_typesupport_fastrtps_c.h\n'}
+[56.495680] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__rosidl_typesupport_fastrtps_c.h\n'}
+[56.495708] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__rosidl_typesupport_fastrtps_c.h\n'}
+[56.495735] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__rosidl_typesupport_fastrtps_c.h\n'}
+[56.495762] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg\n'}
+[56.495790] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[56.495845] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[56.496141] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[56.496204] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver\n'}
+[56.496233] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv\n'}
+[56.496261] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/set_awb.hpp\n'}
+[56.496372] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/get_ae.hpp\n'}
+[56.496398] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/reset_algo.hpp\n'}
+[56.496425] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/save_map.hpp\n'}
+[56.496452] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail\n'}
+[56.496479] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__builder.hpp\n'}
+[56.496554] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__builder.hpp\n'}
+[56.496581] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__struct.hpp\n'}
+[56.496608] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__traits.hpp\n'}
+[56.496635] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__type_support.hpp\n'}
+[56.496695] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__traits.hpp\n'}
+[56.496726] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__struct.hpp\n'}
+[56.496754] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__struct.hpp\n'}
+[56.496812] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__struct.hpp\n'}
+[56.496841] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__struct.hpp\n'}
+[56.496868] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__traits.hpp\n'}
+[56.496940] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__struct.hpp\n'}
+[56.496970] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__type_support.hpp\n'}
+[56.496997] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__builder.hpp\n'}
+[56.497069] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__builder.hpp\n'}
+[56.497119] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__type_support.hpp\n'}
+[56.497171] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__traits.hpp\n'}
+[56.497223] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__type_support.hpp\n'}
+[56.497251] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__struct.hpp\n'}
+[56.497279] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__builder.hpp\n'}
+[56.497338] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__traits.hpp\n'}
+[56.497366] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__type_support.hpp\n'}
+[56.497393] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__builder.hpp\n'}
+[56.497458] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__traits.hpp\n'}
+[56.497508] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__builder.hpp\n'}
+[56.497534] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__type_support.hpp\n'}
+[56.497560] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__traits.hpp\n'}
+[56.497615] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__type_support.hpp\n'}
+[56.497643] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/get_awb.hpp\n'}
+[56.497670] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/set_ae.hpp\n'}
+[56.497729] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/get_device_logs.hpp\n'}
+[56.497808] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg\n'}
+[56.497835] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[56.497862] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver\n'}
+[56.497891] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv\n'}
+[56.497919] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail\n'}
+[56.497945] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[56.498018] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[56.498051] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[56.498079] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[56.498111] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/dds_fastrtps\n'}
+[56.498138] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[56.498196] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[56.498223] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[56.498251] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg\n'}
+[56.498277] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[56.498328] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[56.498738] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[56.498767] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver\n'}
+[56.498793] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv\n'}
+[56.498820] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail\n'}
+[56.498847] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__type_support.c\n'}
+[56.498905] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__type_support.c\n'}
+[56.498934] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__rosidl_typesupport_introspection_c.h\n'}
+[56.498963] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__rosidl_typesupport_introspection_c.h\n'}
+[56.499004] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__type_support.c\n'}
+[56.499081] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__rosidl_typesupport_introspection_c.h\n'}
+[56.499110] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__type_support.c\n'}
+[56.499138] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[56.499189] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__type_support.c\n'}
+[56.499239] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__rosidl_typesupport_introspection_c.h\n'}
+[56.499265] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__type_support.c\n'}
+[56.499292] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__rosidl_typesupport_introspection_c.h\n'}
+[56.499362] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__rosidl_typesupport_introspection_c.h\n'}
+[56.499389] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__type_support.c\n'}
+[56.499415] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg\n'}
+[56.499442] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[56.499493] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_introspection_c.so\n'}
+[56.499603] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_introspection_c.so" to ""\n'}
+[56.499655] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_c.so\n'}
+[56.499792] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_c.so" to ""\n'}
+[56.499863] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver\n'}
+[56.499913] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv\n'}
+[56.499941] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail\n'}
+[56.499967] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__rosidl_typesupport_introspection_cpp.hpp\n'}
+[56.500017] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__rosidl_typesupport_introspection_cpp.hpp\n'}
+[56.500046] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__rosidl_typesupport_introspection_cpp.hpp\n'}
+[56.500073] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__type_support.cpp\n'}
+[56.500145] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__rosidl_typesupport_introspection_cpp.hpp\n'}
+[56.500196] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__type_support.cpp\n'}
+[56.500221] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[56.500247] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__type_support.cpp\n'}
+[56.500300] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__type_support.cpp\n'}
+[56.500346] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__type_support.cpp\n'}
+[56.500371] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[56.500435] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__type_support.cpp\n'}
+[56.500460] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__type_support.cpp\n'}
+[56.500510] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__rosidl_typesupport_introspection_cpp.hpp\n'}
+[56.500558] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[56.500816] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[56.500867] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_cpp.so\n'}
+[56.501065] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_cpp.so" to ""\n'}
+[56.501127] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/pythonpath.sh\n'}
+[56.501194] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/pythonpath.dsv\n'}
+[56.501220] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver-0.14.2-py3.10.egg-info\n'}
+[56.501269] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver-0.14.2-py3.10.egg-info/PKG-INFO\n'}
+[56.501335] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver-0.14.2-py3.10.egg-info/dependency_links.txt\n'}
+[56.501360] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver-0.14.2-py3.10.egg-info/SOURCES.txt\n'}
+[56.501425] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver-0.14.2-py3.10.egg-info/top_level.txt\n'}
+[56.501451] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver\n'}
+[56.501498] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[56.501543] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/_odin_ros_driver_s.ep.rosidl_typesupport_c.c\n'}
+[56.501603] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv\n'}
+[56.501656] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_awb_s.c\n'}
+[56.501701] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_device_logs_s.c\n'}
+[56.501760] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/__init__.py\n'}
+[56.501787] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_ae_s.c\n'}
+[56.501838] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_set_ae_s.c\n'}
+[56.501864] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_set_awb_s.c\n'}
+[56.501918] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_ae.py\n'}
+[56.501966] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_set_awb.py\n'}
+[56.501991] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_reset_algo.py\n'}
+[56.502043] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_reset_algo_s.c\n'}
+[56.502068] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_save_map.py\n'}
+[56.502120] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_awb.py\n'}
+[56.502165] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_set_ae.py\n'}
+[56.502190] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_save_map_s.c\n'}
+[56.502242] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_device_logs.py\n'}
+[56.502289] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/__init__.py\n'}
+[56.502311] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/_odin_ros_driver_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[56.502535] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[56.502562] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/libodin_ros_driver__rosidl_generator_py.so\n'}
+[56.502587] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/_odin_ros_driver_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[56.502639] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[56.531918] (odin_ros_driver) StdoutLine: {'line': b"Listing '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver'...\n"}
+[56.532003] (odin_ros_driver) StdoutLine: {'line': b"Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/__init__.py'...\n"}
+[56.532035] (odin_ros_driver) StdoutLine: {'line': b"Listing '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv'...\n"}
+[56.532062] (odin_ros_driver) StdoutLine: {'line': b"Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/__init__.py'...\n"}
+[56.532088] (odin_ros_driver) StdoutLine: {'line': b"Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_ae.py'...\n"}
+[56.532112] (odin_ros_driver) StdoutLine: {'line': b"Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_awb.py'...\n"}
+[56.532136] (odin_ros_driver) StdoutLine: {'line': b"Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_device_logs.py'...\n"}
+[56.532160] (odin_ros_driver) StdoutLine: {'line': b"Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_reset_algo.py'...\n"}
+[56.532189] (odin_ros_driver) StdoutLine: {'line': b"Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_save_map.py'...\n"}
+[56.532212] (odin_ros_driver) StdoutLine: {'line': b"Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_set_ae.py'...\n"}
+[56.532235] (odin_ros_driver) StdoutLine: {'line': b"Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_set_awb.py'...\n"}
+[56.534898] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[56.535137] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[56.535184] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[56.535363] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[56.535392] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[56.535522] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[56.535551] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_generator_py.so\n'}
+[56.535732] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_generator_py.so" to ""\n'}
+[56.535763] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust\n'}
+[56.535791] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/src\n'}
+[56.535870] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/src/srv\n'}
+[56.535903] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/src/srv/rmw.rs\n'}
+[56.535931] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/src/srv.rs\n'}
+[56.535997] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/src/lib.rs\n'}
+[56.536050] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/build.rs\n'}
+[56.536075] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/Cargo.toml\n'}
+[56.536101] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAe.idl\n'}
+[56.536160] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAwb.idl\n'}
+[56.536212] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAe.idl\n'}
+[56.536238] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAwb.idl\n'}
+[56.536298] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetDeviceLogs.idl\n'}
+[56.536326] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SaveMap.idl\n'}
+[56.536384] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/ResetAlgo.idl\n'}
+[56.536410] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAe.srv\n'}
+[56.536486] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAe_Request.msg\n'}
+[56.536539] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAe_Response.msg\n'}
+[56.536565] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAwb.srv\n'}
+[56.536626] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAwb_Request.msg\n'}
+[56.536652] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAwb_Response.msg\n'}
+[56.536712] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAe.srv\n'}
+[56.536740] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAe_Request.msg\n'}
+[56.536812] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAe_Response.msg\n'}
+[56.536865] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAwb.srv\n'}
+[56.536894] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAwb_Request.msg\n'}
+[56.536954] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAwb_Response.msg\n'}
+[56.537006] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetDeviceLogs.srv\n'}
+[56.537032] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetDeviceLogs_Request.msg\n'}
+[56.537091] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetDeviceLogs_Response.msg\n'}
+[56.537117] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SaveMap.srv\n'}
+[56.537193] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SaveMap_Request.msg\n'}
+[56.537246] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SaveMap_Response.msg\n'}
+[56.537272] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/ResetAlgo.srv\n'}
+[56.537332] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/ResetAlgo_Request.msg\n'}
+[56.537357] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/ResetAlgo_Response.msg\n'}
+[56.537411] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/host_sdk_sample\n'}
+[56.548489] (-) TimerEvent: {}
+[56.552892] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/host_sdk_sample" to ""\n'}
+[56.552994] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/pcd2depth_ros2_node\n'}
+[56.565991] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/pcd2depth_ros2_node" to ""\n'}
+[56.566087] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/cloud_reprojection_ros2_node\n'}
+[56.580857] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/cloud_reprojection_ros2_node" to ""\n'}
+[56.580942] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/image_overlay_node\n'}
+[56.587715] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/image_overlay_node" to ""\n'}
+[56.587786] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libdepth_image_ros2_node_lib.so\n'}
+[56.606295] (odin_ros_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libdepth_image_ros2_node_lib.so" to ""\n'}
+[56.606375] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libpointcloud_depth_converter_ros2.so\n'}
+[56.608029] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libcloud_reprojector_ros2.so\n'}
+[56.609641] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/package.xml\n'}
+[56.609765] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include\n'}
+[56.609798] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/data_logger.h\n'}
+[56.609827] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/camera_pose_visualization.h\n'}
+[56.609854] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/lidar_api_type.h\n'}
+[56.609882] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/pointcloud_depth_converter.hpp\n'}
+[56.609954] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_calib_path.h\n'}
+[56.609983] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/image_overlay_node.hpp\n'}
+[56.610010] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/polynomial_camera.hpp\n'}
+[56.610036] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/host_sdk_sample.h\n'}
+[56.610062] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/cloud_reprojector.hpp\n'}
+[56.610088] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/depth_image_ros2_node.hpp\n'}
+[56.610113] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/cloud_reprojection_ros_node.hpp\n'}
+[56.610188] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/rawCloudRender.h\n'}
+[56.610214] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/depth_image_ros_node.hpp\n'}
+[56.610239] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/yaml_parser.h\n'}
+[56.610264] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/lidar_api.h\n'}
+[56.610289] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/launch\n'}
+[56.610314] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/launch/odin1_ros2.launch.py\n'}
+[56.610374] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/config\n'}
+[56.610404] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/config/odin_ros2.rviz\n'}
+[56.610432] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/config/control_command.yaml\n'}
+[56.610458] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/config/odin_ros.rviz\n'}
+[56.610528] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/ament_index/resource_index/package_run_dependencies/odin_ros_driver\n'}
+[56.610557] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/ament_index/resource_index/parent_prefix_path/odin_ros_driver\n'}
+[56.610585] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/ament_prefix_path.sh\n'}
+[56.610638] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/ament_prefix_path.dsv\n'}
+[56.610666] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/path.sh\n'}
+[56.610718] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/path.dsv\n'}
+[56.610744] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/local_setup.bash\n'}
+[56.610793] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/local_setup.sh\n'}
+[56.610859] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/local_setup.zsh\n'}
+[56.610888] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/local_setup.dsv\n'}
+[56.611144] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/package.dsv\n'}
+[56.611170] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/ament_index/resource_index/packages/odin_ros_driver\n'}
+[56.611195] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_generator_cExport.cmake\n'}
+[56.611440] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_generator_cExport-noconfig.cmake\n'}
+[56.611525] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[56.611548] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[56.611573] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_generator_cppExport.cmake\n'}
+[56.611625] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[56.611649] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[56.611675] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[56.611700] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[56.611725] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_cExport.cmake\n'}
+[56.611776] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[56.611823] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[56.611849] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[56.611874] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_cppExport.cmake\n'}
+[56.611931] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[56.611959] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_generator_pyExport.cmake\n'}
+[56.612022] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_generator_pyExport-noconfig.cmake\n'}
+[56.612048] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driverExport.cmake\n'}
+[56.612097] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driverExport-noconfig.cmake\n'}
+[56.612158] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/rosidl_cmake-extras.cmake\n'}
+[56.612206] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[56.612258] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[56.612313] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[56.612364] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[56.612412] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[56.612469] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[56.612521] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[56.612574] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driverConfig.cmake\n'}
+[56.612623] (odin_ros_driver) StdoutLine: {'line': b'-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driverConfig-version.cmake\n'}
+[56.612672] (odin_ros_driver) StdoutLine: {'line': b'-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/package.xml\n'}
+[56.614110] (odin_ros_driver) CommandEnded: {'returncode': 0}
+[56.636030] (odin_ros_driver) JobEnded: {'identifier': 'odin_ros_driver', 'rc': 0}
+[56.636324] (-) EventReactorShutdown: {}

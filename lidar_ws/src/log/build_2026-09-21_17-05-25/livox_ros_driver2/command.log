@@ -1,0 +1,1 @@
+Invoking command in '/home/slam/r2_ws/lidar_ws/src/build/livox_ros_driver2': /usr/bin/cmake /home/slam/r2_ws/lidar_ws/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/src/install/livox_ros_driver2

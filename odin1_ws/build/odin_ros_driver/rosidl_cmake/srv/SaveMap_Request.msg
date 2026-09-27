@@ -1,0 +1,9 @@
+# Trigger map save on the Odin device.
+#
+# value == 1 : start the save-map flow (uses the configured
+#              mapping_result_dest_dir and mapping_result_file_name;
+#              runs in a background thread because the transfer may
+#              take a long time).
+# value == 0 : just set the "save_map" custom parameter to 0.
+# other      : forwarded as "save_map" custom parameter.
+int32 value

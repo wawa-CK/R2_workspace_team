@@ -1,0 +1,7 @@
+/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/GetAe.idl
+/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/GetAwb.idl
+/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/SetAe.idl
+/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/SetAwb.idl
+/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/GetDeviceLogs.idl
+/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/SaveMap.idl
+/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/ResetAlgo.idl

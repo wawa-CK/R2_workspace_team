@@ -1,0 +1,4 @@
+source;share/super_lio/local_setup.bash
+source;share/super_lio/local_setup.dsv
+source;share/super_lio/local_setup.sh
+source;share/super_lio/local_setup.zsh

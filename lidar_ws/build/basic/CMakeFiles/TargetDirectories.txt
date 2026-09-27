@@ -1,0 +1,10 @@
+/home/slam/r2_ws/lidar_ws/build/basic/CMakeFiles/uninstall.dir
+/home/slam/r2_ws/lidar_ws/build/basic/CMakeFiles/basic_uninstall.dir
+/home/slam/r2_ws/lidar_ws/build/basic/CMakeFiles/basic.dir
+/home/slam/r2_ws/lidar_ws/build/basic/CMakeFiles/test.dir
+/home/slam/r2_ws/lidar_ws/build/basic/CMakeFiles/edit_cache.dir
+/home/slam/r2_ws/lidar_ws/build/basic/CMakeFiles/rebuild_cache.dir
+/home/slam/r2_ws/lidar_ws/build/basic/CMakeFiles/list_install_components.dir
+/home/slam/r2_ws/lidar_ws/build/basic/CMakeFiles/install.dir
+/home/slam/r2_ws/lidar_ws/build/basic/CMakeFiles/install/local.dir
+/home/slam/r2_ws/lidar_ws/build/basic/CMakeFiles/install/strip.dir

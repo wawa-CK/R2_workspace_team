@@ -1,0 +1,20 @@
+** WARNING ** io features related to pcap will be disabled
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp: In function ‘void lidar_device_callback(const lidar_device_info_t*, bool)’:
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1326:19: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1326 |             system("pkill -f rviz");
+      |             ~~~~~~^~~~~~~~~~~~~~~~~
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1434:19: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1434 |             system("pkill -f rviz");
+      |             ~~~~~~^~~~~~~~~~~~~~~~~
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1435:19: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1435 |             system("pkill -f host_sdk_sample");
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1473:23: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1473 |                 system("pkill -f rviz");
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1474:23: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1474 |                 system("pkill -f host_sdk_sample");
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1529:23: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1529 |                 system("pkill -f rviz");
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~

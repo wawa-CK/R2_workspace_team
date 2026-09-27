@@ -1,0 +1,12 @@
+# Set AWB (auto white balance) mode and (in manual mode) R/B gains.
+#
+# mode == 0 (AUTO)   : sends opcode 0x31 only; rgain and bgain ignored.
+# mode == 1 (MANUAL) : sends opcode 0x32 then 0x33 (rgain, bgain).
+#                     Gr/Gb are fixed to 1.0 by the device.
+#
+# Valid manual ranges:
+#   rgain : 0.1 .. 4.0
+#   bgain : 0.1 .. 4.0
+uint8 mode
+float32 rgain
+float32 bgain

@@ -1,0 +1,3 @@
+Invoking command in '/home/slam/r2_ws/lidar_ws/build/basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/install/basic
+Invoked command in '/home/slam/r2_ws/lidar_ws/build/basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/install/basic
+Invoking command in '/home/slam/r2_ws/lidar_ws/build/basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/basic -- -j10 -l10

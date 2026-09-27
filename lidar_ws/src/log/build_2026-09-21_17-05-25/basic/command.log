@@ -1,0 +1,2 @@
+Invoking command in '/home/slam/r2_ws/lidar_ws/src/build/basic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/src/install/basic
+Invoked command in '/home/slam/r2_ws/lidar_ws/src/build/basic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/src/install/basic

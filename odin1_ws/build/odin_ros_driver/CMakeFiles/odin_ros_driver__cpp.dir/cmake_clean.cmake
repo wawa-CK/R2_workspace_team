@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/odin_ros_driver__cpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/get_ae__builder.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/get_ae__struct.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/get_ae__traits.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/get_ae__type_support.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/get_awb__builder.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/get_awb__struct.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/get_awb__traits.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/get_awb__type_support.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/get_device_logs__builder.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/get_device_logs__struct.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/get_device_logs__traits.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/get_device_logs__type_support.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/reset_algo__builder.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/reset_algo__struct.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/reset_algo__traits.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/reset_algo__type_support.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/save_map__builder.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/save_map__struct.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/save_map__traits.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/save_map__type_support.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/set_ae__builder.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/set_ae__struct.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/set_ae__traits.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/set_ae__type_support.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/set_awb__builder.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/set_awb__struct.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/set_awb__traits.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/detail/set_awb__type_support.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/get_ae.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/get_awb.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/get_device_logs.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/reset_algo.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/save_map.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/set_ae.hpp"
+  "rosidl_generator_cpp/odin_ros_driver/srv/set_awb.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/odin_ros_driver__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

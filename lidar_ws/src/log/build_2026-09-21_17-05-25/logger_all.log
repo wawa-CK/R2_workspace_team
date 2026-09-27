@@ -1,0 +1,186 @@
+[0.167s] DEBUG:colcon:Command line arguments: ['/home/slam/.local/bin/colcon', 'build']
+[0.167s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=10, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7abf7d51f310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7abf7d51ed70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7abf7d51ed70>>)
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.280s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/slam/r2_ws/lidar_ws/src'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extension 'ros'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extensions ['cmake', 'python']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extension 'cmake'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extension 'python'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extensions ['python_setup_py']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO) by extension 'python_setup_py'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extension 'ros'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extensions ['cmake', 'python']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extension 'cmake'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extension 'python'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extensions ['python_setup_py']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/docs) by extension 'python_setup_py'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extension 'ros'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extensions ['cmake', 'python']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extension 'cmake'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extension 'python'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extensions ['python_setup_py']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src) by extension 'python_setup_py'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/basic) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/basic) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/basic) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/basic) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/basic) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/basic) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/basic) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/basic) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/basic) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'Super-LIO/src/basic' with type 'ros.ament_cmake' and name 'basic'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/super_lio) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/super_lio) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/super_lio) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/super_lio) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/super_lio) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/super_lio) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/super_lio) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/super_lio) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(Super-LIO/src/super_lio) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'Super-LIO/src/super_lio' with type 'ros.ament_cmake' and name 'super_lio'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros_driver2) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros_driver2) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros_driver2) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros_driver2) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros_driver2) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros_driver2) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros_driver2) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros_driver2) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros_driver2) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros_driver2) by extension 'cmake'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(livox_ros_driver2) by extension 'python'
+[0.294s] DEBUG:colcon.colcon_core.package_identification:Package 'livox_ros_driver2' with type 'cmake' and name 'livox_ros_driver2'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'basic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'basic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/slam/r2_ws/lidar_ws/src/build/basic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/slam/r2_ws/lidar_ws/src/install/basic', 'merge_install': False, 'path': '/home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/slam/r2_ws/lidar_ws/src/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/slam/r2_ws/lidar_ws/src/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/slam/r2_ws/lidar_ws/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'super_lio' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'super_lio' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/slam/r2_ws/lidar_ws/src/build/super_lio', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/slam/r2_ws/lidar_ws/src/install/super_lio', 'merge_install': False, 'path': '/home/slam/r2_ws/lidar_ws/src/Super-LIO/src/super_lio', 'symlink_install': False, 'test_result_base': None}
+[0.313s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.314s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic' with build type 'ament_cmake'
+[0.314s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic'
+[0.316s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/slam/r2_ws/lidar_ws/src/livox_ros_driver2'
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/slam/r2_ws/lidar_ws/src/build/basic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/src/install/basic
+[0.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/slam/r2_ws/lidar_ws/src/build/livox_ros_driver2': /usr/bin/cmake /home/slam/r2_ws/lidar_ws/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/src/install/livox_ros_driver2
+[1.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/slam/r2_ws/lidar_ws/src/build/basic' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/src/install/basic
+[1.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(basic)
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/src/install/basic' for CMake module files
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/src/install/basic' for CMake config files
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/src/install/basic/bin'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/src/install/basic/lib/pkgconfig/basic.pc'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/src/install/basic/lib/python3.10/site-packages'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/slam/r2_ws/lidar_ws/src/install/basic/bin'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/src/install/basic/share/basic/package.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/slam/r2_ws/lidar_ws/src/install/basic/share/basic/package.dsv'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/src/install/basic/share/basic/package.sh'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/src/install/basic/share/basic/package.bash'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/slam/r2_ws/lidar_ws/src/install/basic/share/basic/package.zsh'
+[1.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/slam/r2_ws/lidar_ws/src/install/basic/share/colcon-core/packages/basic)
+[2.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.928s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.936s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.936s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.936s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.953s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/slam/r2_ws/lidar_ws/src/install/local_setup.ps1'
+[2.956s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/slam/r2_ws/lidar_ws/src/install/_local_setup_util_ps1.py'
+[2.958s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/slam/r2_ws/lidar_ws/src/install/setup.ps1'
+[2.960s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/slam/r2_ws/lidar_ws/src/install/local_setup.sh'
+[2.961s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/slam/r2_ws/lidar_ws/src/install/_local_setup_util_sh.py'
+[2.961s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/slam/r2_ws/lidar_ws/src/install/setup.sh'
+[2.962s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/slam/r2_ws/lidar_ws/src/install/local_setup.bash'
+[2.962s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/slam/r2_ws/lidar_ws/src/install/setup.bash'
+[2.963s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/slam/r2_ws/lidar_ws/src/install/local_setup.zsh'
+[2.964s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/slam/r2_ws/lidar_ws/src/install/setup.zsh'

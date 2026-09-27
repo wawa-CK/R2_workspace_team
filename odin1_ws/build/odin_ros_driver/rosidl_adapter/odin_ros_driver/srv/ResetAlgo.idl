@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from odin_ros_driver/srv/ResetAlgo.srv
+// generated code does not contain a copyright notice
+
+
+module odin_ros_driver {
+  module srv {
+    @verbatim (language="comment", text=
+      "Send algorithm reset command to the Odin device." "\n"
+      "" "\n"
+      "value == 1 : send algo_reset command." "\n"
+      "other      : forwarded as \"algo_reset\" custom parameter.")
+    struct ResetAlgo_Request {
+      int32 value;
+    };
+    struct ResetAlgo_Response {
+      @verbatim (language="comment", text=
+        "true if rc == 0")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "0=ok, see lidar_set_custom_parameter error codes")
+      int32 rc;
+    };
+  };
+};

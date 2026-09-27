@@ -1,0 +1,6 @@
+Invoking command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2': /usr/bin/cmake /home/slam/r2_ws/lidar_ws/Livox-SDK2 -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/install/livox_sdk2
+Invoked command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2' returned '0': /usr/bin/cmake /home/slam/r2_ws/lidar_ws/Livox-SDK2 -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/install/livox_sdk2
+Invoking command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2': /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/livox_sdk2 -- -j10 -l10
+Invoked command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/livox_sdk2 -- -j10 -l10
+Invoking command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2': /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/livox_sdk2
+Invoked command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/livox_sdk2

@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from odin_ros_driver/srv/SetAwb.srv
+// generated code does not contain a copyright notice
+
+
+module odin_ros_driver {
+  module srv {
+    @verbatim (language="comment", text=
+      "Set AWB (auto white balance) mode and (in manual mode) R/B gains." "\n"
+      "" "\n"
+      "mode == 0 (AUTO)   : sends opcode 0x31 only; rgain and bgain ignored." "\n"
+      "mode == 1 (MANUAL) : sends opcode 0x32 then 0x33 (rgain, bgain)." "\n"
+      "                    Gr/Gb are fixed to 1.0 by the device." "\n"
+      "" "\n"
+      "Valid manual ranges:" "\n"
+      "  rgain : 0.1 .. 4.0" "\n"
+      "  bgain : 0.1 .. 4.0")
+    struct SetAwb_Request {
+      uint8 mode;
+
+      float rgain;
+
+      float bgain;
+    };
+    struct SetAwb_Response {
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "0=ok, >0=device error (400..405 or 0xFF), <0=SDK error")
+      int32 rc;
+    };
+  };
+};

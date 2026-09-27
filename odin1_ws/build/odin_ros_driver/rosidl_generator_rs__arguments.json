@@ -1,0 +1,48 @@
+{
+  "package_name": "odin_ros_driver",
+  "output_dir": "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_generator_rs/odin_ros_driver",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource",
+  "idl_tuples": [
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/GetAe.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/GetAwb.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/SetAe.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/SetAwb.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/GetDeviceLogs.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/SaveMap.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/ResetAlgo.idl"
+  ],
+  "ros_interface_files": [
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/GetAe.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/GetAwb.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/SetAe.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/SetAwb.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/GetDeviceLogs.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/SaveMap.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/ResetAlgo.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../../../lib/rosidl_generator_rs/rosidl_generator_rs",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../../../local/lib/python3.10/dist-packages/rosidl_generator_rs/__init__.py",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/action.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/action/rmw.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/build.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/Cargo.toml.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/lib.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/msg.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/msg/rmw.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/srv.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/srv/rmw.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/msg_idiomatic.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/msg_rmw.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_idiomatic.rs.em",
+    "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_rmw.rs.em",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/GetAe.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/GetAwb.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/SetAe.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/SetAwb.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/GetDeviceLogs.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/SaveMap.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/ResetAlgo.idl"
+  ],
+  "package_version": "0.14.2"
+}

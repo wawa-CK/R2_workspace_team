@@ -1,0 +1,321 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a95210e291dc696cc793.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						22,
+						23,
+						24,
+						25
+					]
+				},
+				{
+					"build" : "odin_ros_driver__py",
+					"jsonFile" : "directory-odin_ros_driver__py-250fc5326402863a7319.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/odin_ros_driver__py",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "odin_ros_driver__rs",
+					"jsonFile" : "directory-odin_ros_driver__rs-01b8d268027ee67700d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/odin_ros_driver__rs",
+					"targetIndexes" : 
+					[
+						21
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "odin_ros_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_odin_ros_driver_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_odin_ros_driver_egg-53adc05c6df8361a1a5a.json",
+					"name" : "ament_cmake_python_build_odin_ros_driver_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_odin_ros_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_odin_ros_driver-ad927a8743b629cd0491.json",
+					"name" : "ament_cmake_python_copy_odin_ros_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_reprojection_ros2_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_reprojection_ros2_node-6a00fefc1d225084d26d.json",
+					"name" : "cloud_reprojection_ros2_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cloud_reprojector_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cloud_reprojector_ros2-6075a340823fa4776d8d.json",
+					"name" : "cloud_reprojector_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "depth_image_ros2_node_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depth_image_ros2_node_lib-207821afb85864fea597.json",
+					"name" : "depth_image_ros2_node_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "host_sdk_sample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-host_sdk_sample-e92ddb787c49e6ca651e.json",
+					"name" : "host_sdk_sample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_overlay_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_overlay_node-cfccc8d7896e8ee4a7a1.json",
+					"name" : "image_overlay_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver-6cf643cd7e591067e6d8.json",
+					"name" : "odin_ros_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver__cpp-4670b1d4cf2a786aeece.json",
+					"name" : "odin_ros_driver__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "odin_ros_driver__py::@a96c5b5c2ed9517b38a8",
+					"jsonFile" : "target-odin_ros_driver__py-9a5ab58c6a82c5dae046.json",
+					"name" : "odin_ros_driver__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver__rosidl_generator_c-417138f0153796daf6d8.json",
+					"name" : "odin_ros_driver__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver__rosidl_generator_py-26520565cf7eb7a75d7c.json",
+					"name" : "odin_ros_driver__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver__rosidl_typesupport_c-6e51f5295cd13c0dc8a1.json",
+					"name" : "odin_ros_driver__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver__rosidl_typesupport_c__pyext-2fdbc806aa27237d13c4.json",
+					"name" : "odin_ros_driver__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver__rosidl_typesupport_cpp-2285d52f4a7b48dc8cd7.json",
+					"name" : "odin_ros_driver__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver__rosidl_typesupport_fastrtps_c-f019e3319a74b5bb1baa.json",
+					"name" : "odin_ros_driver__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver__rosidl_typesupport_fastrtps_c__pyext-e7207c94eca7b061b597.json",
+					"name" : "odin_ros_driver__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver__rosidl_typesupport_fastrtps_cpp-a1d8a897753344e50a54.json",
+					"name" : "odin_ros_driver__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver__rosidl_typesupport_introspection_c-d292947d6b3ffdf3e30b.json",
+					"name" : "odin_ros_driver__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver__rosidl_typesupport_introspection_c__pyext-5d89c60dd831fc443109.json",
+					"name" : "odin_ros_driver__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver__rosidl_typesupport_introspection_cpp-a5ce888cfdab5750f930.json",
+					"name" : "odin_ros_driver__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "odin_ros_driver__rs::@52da6eb7330e4d20fbd8",
+					"jsonFile" : "target-odin_ros_driver__rs-c14922d41fa2c5fca5ea.json",
+					"name" : "odin_ros_driver__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odin_ros_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odin_ros_driver_uninstall-67b26c69ab84abd4dd17.json",
+					"name" : "odin_ros_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pcd2depth_ros2_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pcd2depth_ros2_node-9715c6a45229b041278a.json",
+					"name" : "pcd2depth_ros2_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_depth_converter_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_depth_converter_ros2-af7f1dadf5e2657ff6a4.json",
+					"name" : "pointcloud_depth_converter_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fd257e1255bb367502a7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver",
+		"source" : "/home/slam/r2_ws/odin1_ws/src/odin_ros_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

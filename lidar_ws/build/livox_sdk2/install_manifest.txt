@@ -1,0 +1,5 @@
+/home/slam/r2_ws/lidar_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a
+/home/slam/r2_ws/lidar_ws/install/livox_sdk2/include/livox_lidar_def.h
+/home/slam/r2_ws/lidar_ws/install/livox_sdk2/include/livox_lidar_api.h
+/home/slam/r2_ws/lidar_ws/install/livox_sdk2/include/livox_lidar_cfg.h
+/home/slam/r2_ws/lidar_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so

@@ -1,0 +1,11 @@
+source;share/super_lio/hook/cmake_prefix_path.ps1
+source;share/super_lio/hook/cmake_prefix_path.dsv
+source;share/super_lio/hook/cmake_prefix_path.sh
+source;share/super_lio/hook/ld_library_path_lib.ps1
+source;share/super_lio/hook/ld_library_path_lib.dsv
+source;share/super_lio/hook/ld_library_path_lib.sh
+source;share/super_lio/local_setup.bash
+source;share/super_lio/local_setup.dsv
+source;share/super_lio/local_setup.ps1
+source;share/super_lio/local_setup.sh
+source;share/super_lio/local_setup.zsh

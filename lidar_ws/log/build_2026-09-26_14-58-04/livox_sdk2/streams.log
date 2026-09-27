@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2': /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/livox_sdk2 -- -j10 -l10
+[0.073s] [ 40%] Built target livox_lidar_sdk_shared
+[0.077s] [ 81%] Built target livox_lidar_sdk_static
+[0.101s] [ 83%] Built target lidar_cmd_observer
+[0.101s] [ 85%] Built target livox_lidar_quick_start
+[0.102s] [ 89%] Built target livox_lidar_rmc_time_sync
+[0.102s] [ 91%] Built target multi_lidars_upgrade
+[0.102s] [ 93%] Built target debug_point_cloud
+[0.105s] [ 95%] Built target livox_lidar_ip_set
+[0.108s] [ 97%] Built target livox_lidar_info_get
+[0.109s] [100%] Built target logger
+[0.121s] Invoked command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/livox_sdk2 -- -j10 -l10
+[0.122s] Invoking command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2': /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/livox_sdk2
+[0.126s] -- Install configuration: ""
+[0.126s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_static.a
+[0.126s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/livox_sdk2/include/livox_lidar_def.h
+[0.126s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/livox_sdk2/include/livox_lidar_api.h
+[0.126s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/livox_sdk2/include/livox_lidar_cfg.h
+[0.127s] -- Up-to-date: /home/slam/r2_ws/lidar_ws/install/livox_sdk2/lib/liblivox_lidar_sdk_shared.so
+[0.129s] Invoked command in '/home/slam/r2_ws/lidar_ws/build/livox_sdk2' returned '0': /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/livox_sdk2

@@ -1,0 +1,189 @@
+[0.010s] Invoking command in '/home/slam/r2_ws/lidar_ws/build/basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/install/basic
+[0.068s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- Detecting CXX compiler ABI info
+[0.168s] -- Detecting CXX compiler ABI info - done
+[0.173s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.174s] -- Detecting CXX compile features
+[0.174s] -- Detecting CXX compile features - done
+[0.176s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.243s] -- Detecting C compile features
+[0.243s] -- Detecting C compile features - done
+[0.245s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.409s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.527s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.577s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.584s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.595s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.694s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.698s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.832s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.889s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.017s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.042s] -- Looking for pthread.h
+[1.169s] -- Looking for pthread.h - found
+[1.170s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.346s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.347s] -- Found Threads: TRUE  
+[1.473s] -- Checking for module 'eigen3'
+[1.504s] --   Found eigen3, version 3.4.0
+[1.565s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.570s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.596s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.621s] -- Checking for module 'flann'
+[1.644s] --   Found flann, version 1.9.1
+[1.708s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.713s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.774s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.783s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.062s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.062s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.066s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.087s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.146s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.188s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.366s] -- Found X11: /usr/include   
+[2.366s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.505s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.506s] -- Looking for gethostbyname
+[2.630s] -- Looking for gethostbyname - found
+[2.630s] -- Looking for connect
+[2.751s] -- Looking for connect - found
+[2.751s] -- Looking for remove
+[2.890s] -- Looking for remove - found
+[2.890s] -- Looking for shmat
+[3.033s] -- Looking for shmat - found
+[3.033s] -- Looking for IceConnectionNumber in ICE
+[3.168s] -- Looking for IceConnectionNumber in ICE - found
+[3.312s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[3.315s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[3.317s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[3.319s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[3.331s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[3.345s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[3.350s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[3.359s] -- Found utf8cpp: /usr/include/utf8cpp  
+[3.527s] -- Checking for module 'libusb-1.0'
+[3.550s] --   Found libusb-1.0, version 1.0.25
+[3.601s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.606s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[3.610s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.706s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[3.710s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.714s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.161s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.181s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.198s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.536s] -- Found Qhull version 8.0.2
+[4.975s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.318s] -- looking for PCL_COMMON
+[5.320s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.320s] -- looking for PCL_KDTREE
+[5.321s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.322s] -- looking for PCL_OCTREE
+[5.327s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.327s] -- looking for PCL_SEARCH
+[5.327s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.327s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.328s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.328s] -- looking for PCL_FILTERS
+[5.328s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.328s] -- looking for PCL_2D
+[5.329s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.330s] -- looking for PCL_GEOMETRY
+[5.330s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.330s] -- looking for PCL_IO
+[5.332s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.332s] -- looking for PCL_FEATURES
+[5.334s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.336s] -- looking for PCL_ML
+[5.336s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.336s] -- looking for PCL_SEGMENTATION
+[5.338s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.339s] -- looking for PCL_VISUALIZATION
+[5.341s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.341s] -- looking for PCL_SURFACE
+[5.342s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.342s] -- looking for PCL_REGISTRATION
+[5.343s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.344s] -- looking for PCL_KEYPOINTS
+[5.345s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.347s] -- looking for PCL_TRACKING
+[5.347s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.347s] -- looking for PCL_RECOGNITION
+[5.348s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.348s] -- looking for PCL_STEREO
+[5.350s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.350s] -- looking for PCL_APPS
+[5.351s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.352s] -- looking for PCL_IN_HAND_SCANNER
+[5.352s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.353s] -- looking for PCL_MODELER
+[5.353s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.353s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.354s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.354s] -- looking for PCL_OUTOFCORE
+[5.358s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.358s] -- looking for PCL_PEOPLE
+[5.358s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.359s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[5.470s] -- Configuring done
+[5.540s] -- Generating done
+[5.542s] [33mCMake Warning:
+[5.542s]   Manually-specified variables were not used by the project:
+[5.542s] 
+[5.542s]     DISTRO_ROS
+[5.542s]     ROS_EDITION
+[5.542s] 
+[5.542s] [0m
+[5.567s] -- Build files have been written to: /home/slam/r2_ws/lidar_ws/build/basic
+[5.614s] Invoked command in '/home/slam/r2_ws/lidar_ws/build/basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/slam/r2_ws/lidar_ws/src/Super-LIO/src/basic -DROS_EDITION=ROS2 -DDISTRO_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/lidar_ws/install/basic
+[5.614s] Invoking command in '/home/slam/r2_ws/lidar_ws/build/basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/basic -- -j10 -l10
+[5.703s] [ 33%] [32mBuilding CXX object CMakeFiles/basic.dir/src/logs.cpp.o[0m
+[5.708s] [ 66%] [32mBuilding CXX object CMakeFiles/basic.dir/src/Manifold.cpp.o[0m
+[16.946s] [100%] [32m[1mLinking CXX shared library libbasic.so[0m
+[18.239s] [100%] Built target basic
+[18.255s] Invoked command in '/home/slam/r2_ws/lidar_ws/build/basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/basic -- -j10 -l10
+[18.268s] Invoking command in '/home/slam/r2_ws/lidar_ws/build/basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/basic
+[18.275s] -- Install configuration: "Release"
+[18.276s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/lib/libbasic.so
+[18.279s] -- Set runtime path of "/home/slam/r2_ws/lidar_ws/install/basic/lib/libbasic.so" to ""
+[18.280s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/include
+[18.280s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/include/basic
+[18.281s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/Manifold.h
+[18.281s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/alias.h
+[18.282s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/math.h
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/ds.h
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/buffer
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/buffer/LatestOnlyBuffer.hpp
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/buffer/MultiSourceLatestBuffer.hpp
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/buffer/RingBuffer.hpp
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/include/basic/logs.h
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/environment/library_path.sh
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/environment/library_path.dsv
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/ament_index/resource_index/package_run_dependencies/basic
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/ament_index/resource_index/parent_prefix_path/basic
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/environment/ament_prefix_path.sh
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/environment/ament_prefix_path.dsv
+[18.284s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/environment/path.sh
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/environment/path.dsv
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/local_setup.bash
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/local_setup.sh
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/local_setup.zsh
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/local_setup.dsv
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.dsv
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/ament_index/resource_index/packages/basic
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/export_basicExport.cmake
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/export_basicExport-release.cmake
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/ament_cmake_export_targets-extras.cmake
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/ament_cmake_export_libraries-extras.cmake
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/basicConfig.cmake
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/cmake/basicConfig-version.cmake
+[18.285s] -- Installing: /home/slam/r2_ws/lidar_ws/install/basic/share/basic/package.xml
+[18.294s] Invoked command in '/home/slam/r2_ws/lidar_ws/build/basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/basic

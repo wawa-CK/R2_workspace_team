@@ -1,0 +1,650 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- ROS_VERSION: ROS2
+-- Defining ROS2
+-- Build system: ROS2
+-- Detected x86_64 architecture
+-- Library directory: /home/slam/r2_ws/odin1_ws/src/odin_ros_driver/lib
+-- Found lydHostApi library: /home/slam/r2_ws/odin1_ws/src/odin_ros_driver/lib/liblydHostApi_amd.a
+-- Backtrace symbols enabled (-g, frame pointers, -rdynamic)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+-- Found utf8cpp: /usr/include/utf8cpp  
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+** WARNING ** io features related to pcap will be disabled
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- looking for PCL_2D
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- looking for PCL_IO
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- looking for PCL_ML
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- looking for PCL_RECOGNITION
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- looking for PCL_STEREO
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- looking for PCL_APPS
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- looking for PCL_IN_HAND_SCANNER
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- looking for PCL_MODELER
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- looking for PCL_OUTOFCORE
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- looking for PCL_PEOPLE
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Configuring for ROS2 build
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Found tf2: 0.25.23 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.23 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.23 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Installing launch_ROS2 directory to share/odin_ros_driver/launch
+-- Install targets added
+-- =======================================
+-- Project: odin_ros_driver
+-- ROS_VERSION: ROS2
+-- Target platform: x86
+-- lydHostApi library: /home/slam/r2_ws/odin1_ws/src/odin_ros_driver/lib/liblydHostApi_amd.a
+-- libusb library: usb-1.0
+-- =======================================
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/slam/r2_ws/odin1_ws/build/odin_ros_driver
+[  1%] Generating C code for ROS interfaces
+[  2%] Building CXX object CMakeFiles/pointcloud_depth_converter_ros2.dir/src/pointcloud_depth_converter.cpp.o
+[  3%] Building CXX object CMakeFiles/image_overlay_node.dir/src/image_overlay_node.cpp.o
+[  4%] Generating C++ code for ROS interfaces
+[  5%] Building CXX object CMakeFiles/cloud_reprojector_ros2.dir/src/cloud_reprojector.cpp.o
+[  6%] Generating Rust code for ROS interfaces
+[  6%] Built target ament_cmake_python_copy_odin_ros_driver
+running egg_info
+creating odin_ros_driver.egg-info
+writing odin_ros_driver.egg-info/PKG-INFO
+writing dependency_links to odin_ros_driver.egg-info/dependency_links.txt
+writing top-level names to odin_ros_driver.egg-info/top_level.txt
+writing manifest file 'odin_ros_driver.egg-info/SOURCES.txt'
+reading manifest file 'odin_ros_driver.egg-info/SOURCES.txt'
+writing manifest file 'odin_ros_driver.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_odin_ros_driver_egg
+[  6%] Built target odin_ros_driver__rs
+[  6%] Built target odin_ros_driver__cpp
+[  8%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/get_ae__functions.c.o
+[  8%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/get_awb__functions.c.o
+[  9%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/set_awb__functions.c.o
+[ 10%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/set_ae__functions.c.o
+[ 11%] Generating C++ type support dispatch for ROS interfaces
+[ 12%] Generating C++ introspection for ROS interfaces
+[ 13%] Generating C++ type support for eProsima Fast-RTPS
+[ 14%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/get_device_logs__functions.c.o
+[ 15%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/save_map__functions.c.o
+[ 16%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_c.dir/rosidl_generator_c/odin_ros_driver/srv/detail/reset_algo__functions.c.o
+[ 17%] Linking C shared library libodin_ros_driver__rosidl_generator_c.so
+[ 17%] Built target odin_ros_driver__rosidl_generator_c
+[ 18%] Generating C type support dispatch for ROS interfaces
+[ 20%] Generating C introspection for ROS interfaces
+[ 20%] Generating C type support for eProsima Fast-RTPS
+[ 21%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/get_ae__type_support.cpp.o
+[ 22%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/get_awb__type_support.cpp.o
+[ 23%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_ae__type_support.cpp.o
+[ 24%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/get_ae__type_support.cpp.o
+[ 25%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/set_ae__type_support.cpp.o
+[ 26%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/get_awb__type_support.cpp.o
+[ 27%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/get_ae__type_support.cpp.o
+[ 28%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/set_ae__type_support.cpp.o
+[ 29%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/get_awb__type_support.cpp.o
+[ 30%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/set_awb__type_support.cpp.o
+[ 31%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/get_device_logs__type_support.cpp.o
+[ 32%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/save_map__type_support.cpp.o
+[ 34%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/odin_ros_driver/srv/reset_algo__type_support.cpp.o
+[ 35%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/set_awb__type_support.cpp.o
+[ 36%] Linking CXX shared library libodin_ros_driver__rosidl_typesupport_c.so
+[ 37%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/get_ae__type_support_c.cpp.o
+[ 38%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_awb__type_support.cpp.o
+[ 38%] Built target odin_ros_driver__rosidl_typesupport_c
+[ 39%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/get_awb__type_support_c.cpp.o
+[ 40%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/set_ae__type_support_c.cpp.o
+[ 41%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/set_ae__type_support.cpp.o
+[ 42%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/get_device_logs__type_support.cpp.o
+[ 43%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/set_ae__type_support.cpp.o
+[ 44%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/get_ae__type_support.c.o
+[ 45%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/save_map__type_support.cpp.o
+[ 46%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/get_awb__type_support.c.o
+[ 47%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/set_ae__type_support.c.o
+[ 48%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/set_awb__type_support.cpp.o
+[ 49%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/set_awb__type_support.c.o
+[ 50%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/set_awb__type_support.cpp.o
+[ 51%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/set_awb__type_support_c.cpp.o
+[ 52%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/get_device_logs__type_support.c.o
+[ 53%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/odin_ros_driver/srv/reset_algo__type_support.cpp.o
+[ 54%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/save_map__type_support.c.o
+[ 55%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/get_device_logs__type_support_c.cpp.o
+[ 56%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/odin_ros_driver/srv/detail/reset_algo__type_support.c.o
+[ 57%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/get_device_logs__type_support.cpp.o
+[ 58%] Linking C shared library libodin_ros_driver__rosidl_typesupport_introspection_c.so
+[ 58%] Built target odin_ros_driver__rosidl_typesupport_introspection_c
+[ 59%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/get_device_logs__type_support.cpp.o
+[ 60%] Linking CXX shared library libodin_ros_driver__rosidl_typesupport_cpp.so
+[ 61%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/save_map__type_support.cpp.o
+[ 61%] Built target odin_ros_driver__rosidl_typesupport_cpp
+[ 62%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/save_map__type_support.cpp.o
+[ 63%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/odin_ros_driver/srv/detail/dds_fastrtps/reset_algo__type_support.cpp.o
+[ 64%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/save_map__type_support_c.cpp.o
+[ 65%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/odin_ros_driver/srv/detail/reset_algo__type_support.cpp.o
+[ 67%] Building CXX object CMakeFiles/host_sdk_sample.dir/src/host_sdk_sample.cpp.o
+[ 68%] Building CXX object CMakeFiles/host_sdk_sample.dir/src/yaml_parser.cpp.o
+[ 69%] Building CXX object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/odin_ros_driver/srv/detail/reset_algo__type_support_c.cpp.o
+[ 70%] Building CXX object CMakeFiles/host_sdk_sample.dir/src/rawCloudRender.cpp.o
+[ 71%] Linking CXX shared library libodin_ros_driver__rosidl_typesupport_fastrtps_cpp.so
+[ 72%] Linking CXX shared library libodin_ros_driver__rosidl_typesupport_introspection_cpp.so
+[ 72%] Built target odin_ros_driver__rosidl_typesupport_fastrtps_cpp
+[ 73%] Building CXX object CMakeFiles/host_sdk_sample.dir/src/camera_pose_visualization.cpp.o
+[ 73%] Built target odin_ros_driver__rosidl_typesupport_introspection_cpp
+[ 74%] Linking CXX shared library libodin_ros_driver__rosidl_typesupport_fastrtps_c.so
+[ 74%] Built target odin_ros_driver__rosidl_typesupport_fastrtps_c
+[ 74%] Built target odin_ros_driver
+[ 75%] Generating Python code for ROS interfaces
+[ 75%] Built target odin_ros_driver__py
+[ 76%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_get_awb_s.c.o
+[ 77%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_get_ae_s.c.o
+[ 78%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_set_ae_s.c.o
+[ 79%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_set_awb_s.c.o
+[ 80%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_get_device_logs_s.c.o
+[ 81%] Linking CXX shared library libcloud_reprojector_ros2.so
+[ 82%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_save_map_s.c.o
+[ 83%] Building C object CMakeFiles/odin_ros_driver__rosidl_generator_py.dir/rosidl_generator_py/odin_ros_driver/srv/_reset_algo_s.c.o
+[ 84%] Linking C shared library rosidl_generator_py/odin_ros_driver/libodin_ros_driver__rosidl_generator_py.so
+[ 84%] Built target odin_ros_driver__rosidl_generator_py
+[ 85%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/odin_ros_driver/_odin_ros_driver_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 86%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/odin_ros_driver/_odin_ros_driver_s.ep.rosidl_typesupport_c.c.o
+[ 87%] Building C object CMakeFiles/odin_ros_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/odin_ros_driver/_odin_ros_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 88%] Linking C shared library rosidl_generator_py/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[ 89%] Linking C shared library rosidl_generator_py/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[ 89%] Built target odin_ros_driver__rosidl_typesupport_c__pyext
+[ 89%] Built target odin_ros_driver__rosidl_typesupport_introspection_c__pyext
+[ 90%] Linking C shared library rosidl_generator_py/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[ 90%] Built target odin_ros_driver__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Linking CXX shared library libpointcloud_depth_converter_ros2.so
+[ 91%] Built target cloud_reprojector_ros2
+[ 92%] Building CXX object CMakeFiles/cloud_reprojection_ros2_node.dir/src/cloud_reprojection_ros.cpp.o
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp: In function ‘void lidar_device_callback(const lidar_device_info_t*, bool)’:
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1326:19: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1326 |             system("pkill -f rviz");
+      |             ~~~~~~^~~~~~~~~~~~~~~~~
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1434:19: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1434 |             system("pkill -f rviz");
+      |             ~~~~~~^~~~~~~~~~~~~~~~~
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1435:19: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1435 |             system("pkill -f host_sdk_sample");
+      |             ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1473:23: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1473 |                 system("pkill -f rviz");
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1474:23: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1474 |                 system("pkill -f host_sdk_sample");
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/slam/r2_ws/odin1_ws/src/odin_ros_driver/src/host_sdk_sample.cpp:1529:23: warning: ignoring return value of ‘int system(const char*)’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+ 1529 |                 system("pkill -f rviz");
+      |                 ~~~~~~^~~~~~~~~~~~~~~~~
+[ 92%] Built target pointcloud_depth_converter_ros2
+[ 93%] Building CXX object CMakeFiles/depth_image_ros2_node_lib.dir/src/depth_image_ros2_node.cpp.o
+[ 94%] Linking CXX executable image_overlay_node
+[ 94%] Built target image_overlay_node
+[ 95%] Linking CXX executable host_sdk_sample
+[ 95%] Built target host_sdk_sample
+[ 96%] Linking CXX executable cloud_reprojection_ros2_node
+[ 96%] Built target cloud_reprojection_ros2_node
+[ 97%] Linking CXX shared library libdepth_image_ros2_node_lib.so
+[ 97%] Built target depth_image_ros2_node_lib
+[ 98%] Building CXX object CMakeFiles/pcd2depth_ros2_node.dir/src/pcd2depth_ros2.cpp.o
+[100%] Linking CXX executable pcd2depth_ros2_node
+[100%] Built target pcd2depth_ros2_node
+-- Install configuration: ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/ament_index/resource_index/rosidl_interfaces/odin_ros_driver
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/get_ae.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/set_ae.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/reset_algo.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/save_map.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__struct.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__type_support.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__functions.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__type_support.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__functions.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__struct.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__struct.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__functions.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__functions.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__functions.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__type_support.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__struct.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__type_support.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__functions.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__functions.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__functions.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__functions.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__functions.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__type_support.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__struct.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__type_support.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__functions.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__struct.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__struct.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__functions.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__functions.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__functions.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__type_support.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/get_awb.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/set_awb.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/get_device_logs.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/library_path.sh
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/library_path.dsv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_generator_c.so
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/set_awb.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/get_ae.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/reset_algo.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/save_map.hpp
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__builder.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__builder.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__struct.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__traits.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__type_support.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__traits.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__struct.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__struct.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__struct.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__struct.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__traits.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__struct.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__type_support.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__builder.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__builder.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__type_support.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__traits.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__type_support.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__struct.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__builder.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__traits.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__type_support.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__builder.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__traits.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__builder.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__type_support.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__traits.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__type_support.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/get_awb.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/set_ae.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/get_device_logs.hpp
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/dds_fastrtps
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__type_support.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__type_support.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__rosidl_typesupport_introspection_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__rosidl_typesupport_introspection_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__type_support.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__rosidl_typesupport_introspection_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__type_support.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__type_support.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__rosidl_typesupport_introspection_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__type_support.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__rosidl_typesupport_introspection_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__rosidl_typesupport_introspection_c.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__type_support.c
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_c.so
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_awb__type_support.cpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_ae__type_support.cpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__type_support.cpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_awb__type_support.cpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__type_support.cpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/set_ae__type_support.cpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/reset_algo__type_support.cpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_ros_driver/odin_ros_driver/srv/detail/get_device_logs__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/pythonpath.sh
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/pythonpath.dsv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver-0.14.2-py3.10.egg-info
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver-0.14.2-py3.10.egg-info/PKG-INFO
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver-0.14.2-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver-0.14.2-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver-0.14.2-py3.10.egg-info/top_level.txt
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/_odin_ros_driver_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_awb_s.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_device_logs_s.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/__init__.py
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_ae_s.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_set_ae_s.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_set_awb_s.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_ae.py
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_set_awb.py
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_reset_algo.py
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_reset_algo_s.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_save_map.py
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_awb.py
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_set_ae.py
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_save_map_s.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_device_logs.py
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/__init__.py
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/_odin_ros_driver_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/libodin_ros_driver__rosidl_generator_py.so
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/_odin_ros_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver'...
+Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/__init__.py'...
+Listing '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv'...
+Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/__init__.py'...
+Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_ae.py'...
+Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_awb.py'...
+Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_get_device_logs.py'...
+Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_reset_algo.py'...
+Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_save_map.py'...
+Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_set_ae.py'...
+Compiling '/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/srv/_set_awb.py'...
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/local/lib/python3.10/dist-packages/odin_ros_driver/odin_ros_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_generator_py.so
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libodin_ros_driver__rosidl_generator_py.so" to ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/src
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/src/srv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/src/srv/rmw.rs
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/src/srv.rs
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/src/lib.rs
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/build.rs
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/rust/Cargo.toml
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAe.idl
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAwb.idl
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAe.idl
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAwb.idl
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetDeviceLogs.idl
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SaveMap.idl
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/ResetAlgo.idl
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAe.srv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAe_Request.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAe_Response.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAwb.srv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAwb_Request.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetAwb_Response.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAe.srv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAe_Request.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAe_Response.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAwb.srv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAwb_Request.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SetAwb_Response.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetDeviceLogs.srv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetDeviceLogs_Request.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/GetDeviceLogs_Response.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SaveMap.srv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SaveMap_Request.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/SaveMap_Response.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/ResetAlgo.srv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/ResetAlgo_Request.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/srv/ResetAlgo_Response.msg
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/host_sdk_sample
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/host_sdk_sample" to ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/pcd2depth_ros2_node
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/pcd2depth_ros2_node" to ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/cloud_reprojection_ros2_node
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/cloud_reprojection_ros2_node" to ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/image_overlay_node
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/odin_ros_driver/image_overlay_node" to ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libdepth_image_ros2_node_lib.so
+-- Set runtime path of "/home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libdepth_image_ros2_node_lib.so" to ""
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libpointcloud_depth_converter_ros2.so
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/lib/libcloud_reprojector_ros2.so
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/package.xml
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/data_logger.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/camera_pose_visualization.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/lidar_api_type.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/pointcloud_depth_converter.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/odin_calib_path.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/image_overlay_node.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/polynomial_camera.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/host_sdk_sample.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/cloud_reprojector.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/depth_image_ros2_node.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/cloud_reprojection_ros_node.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/rawCloudRender.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/depth_image_ros_node.hpp
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/yaml_parser.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/include/lidar_api.h
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/launch
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/launch/odin1_ros2.launch.py
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/config
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/config/odin_ros2.rviz
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/config/control_command.yaml
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/config/odin_ros.rviz
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/ament_index/resource_index/package_run_dependencies/odin_ros_driver
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/ament_index/resource_index/parent_prefix_path/odin_ros_driver
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/ament_prefix_path.sh
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/path.sh
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/environment/path.dsv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/local_setup.bash
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/local_setup.sh
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/local_setup.zsh
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/local_setup.dsv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/package.dsv
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/ament_index/resource_index/packages/odin_ros_driver
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_generator_cExport.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_generator_cppExport.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_cExport.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driver__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_generator_pyExport.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driver__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driverExport.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/export_odin_ros_driverExport-noconfig.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/rosidl_cmake_aggregate_target-extras.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driverConfig.cmake
+-- Installing: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/cmake/odin_ros_driverConfig-version.cmake
+-- Up-to-date: /home/slam/r2_ws/odin1_ws/install/odin_ros_driver/share/odin_ros_driver/package.xml

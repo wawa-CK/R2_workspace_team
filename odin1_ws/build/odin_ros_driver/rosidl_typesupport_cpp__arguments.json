@@ -1,0 +1,29 @@
+{
+  "package_name": "odin_ros_driver",
+  "output_dir": "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_typesupport_cpp/odin_ros_driver",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/GetAe.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/GetAwb.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/SetAe.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/SetAwb.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/GetDeviceLogs.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/SaveMap.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver:srv/ResetAlgo.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/GetAe.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/GetAwb.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/SetAe.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/SetAwb.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/GetDeviceLogs.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/SaveMap.idl",
+    "/home/slam/r2_ws/odin1_ws/build/odin_ros_driver/rosidl_adapter/odin_ros_driver/srv/ResetAlgo.idl"
+  ]
+}

@@ -1,0 +1,4 @@
+Invoking command in '/home/slam/r2_ws/lidar_ws/build/basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/basic -- -j10 -l10
+Invoked command in '/home/slam/r2_ws/lidar_ws/build/basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/slam/r2_ws/lidar_ws/build/basic -- -j10 -l10
+Invoking command in '/home/slam/r2_ws/lidar_ws/build/basic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/basic
+Invoked command in '/home/slam/r2_ws/lidar_ws/build/basic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/slam/r2_ws/lidar_ws/build/basic

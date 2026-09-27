@@ -1,0 +1,8 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DISTRO_ROS
+    ROS_EDITION
+
+[0m
