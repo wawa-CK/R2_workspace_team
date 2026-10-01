@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from odin_ros_driver/srv/SetAe.srv
+// generated code does not contain a copyright notice
+
+
+module odin_ros_driver {
+  module srv {
+    @verbatim (language="comment", text=
+      "Set AE (auto exposure) mode and (in manual mode) exposure / gain." "\n"
+      "" "\n"
+      "mode == 0 (AUTO)   : sends opcode 0x02 only; exposure_time and gain ignored." "\n"
+      "mode == 1 (MANUAL) : sends opcode 0x03 then 0x06 (exposure_time, gain)." "\n"
+      "" "\n"
+      "Valid manual ranges (device-enforced; out-of-range returns rc=403):" "\n"
+      "  exposure_time : 0.0001 s .. 0.033 s" "\n"
+      "  gain          : 1.0     .. 64.0")
+    struct SetAe_Request {
+      uint8 mode;
+
+      float exposure_time;
+
+      float gain;
+    };
+    struct SetAe_Response {
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "0=ok, >0=device error (400..405 or 0xFF), <0=SDK error")
+      int32 rc;
+    };
+  };
+};

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "odin_ros_driver__py",
+		"source" : "/home/slam/r2_ws/build/odin_ros_driver/odin_ros_driver__py"
+	}
+}

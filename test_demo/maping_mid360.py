@@ -24,6 +24,7 @@ Mid360 建图脚本 —— 3D 点云（体素降采样 0.15）+ 2D 栅格地图 
 """
 
 import math
+from pathlib import Path
 import subprocess
 import threading
 import time
@@ -42,14 +43,15 @@ ROBOT_ODOM_TOPIC = "/lio/robo/odom"     # 机器人位姿话题
 
 VOXEL_SIZE = 0.15       # 体素降采样尺寸（米）
 GRID_RES = 0.05         # 2D 栅格分辨率（米）
-GRID_MIN_H = 0.1        # 2D 栅格取点的高度下限（过滤地面）
-GRID_MAX_H = 2.0        # 2D 栅格取点的高度上限（过滤天花板）
+GRID_MIN_H = 0.1        # world 坐标 z 下限；不是离地高度，也不是自动识别地面
+GRID_MAX_H = 2.0        # world 坐标 z 上限；与下限一起定义二维投影高度切片
 
-POINTS_FILE = "/home/slam/r2_ws/test_demo/points.txt"   # 点位（origin 起始 + target 目标点）
-MAP3D_FILE = "/home/slam/r2_ws/test_demo/map3d.pcd"     # 3D 点云
-MAP2D_PGM = "/home/slam/r2_ws/test_demo/map2d.pgm"      # 2D 栅格图
-MAP2D_YAML = "/home/slam/r2_ws/test_demo/map2d.yaml"    # 2D 栅格元数据
-MAP2D_PNG = "/home/slam/r2_ws/test_demo/map2d.png"      # 2D 栅格图 PNG（预览用）
+DATA_DIR = Path(__file__).resolve().parent
+POINTS_FILE = DATA_DIR / "points.txt"   # 点位（origin 起始 + target 目标点）
+MAP3D_FILE = DATA_DIR / "map3d.pcd"     # 3D 点云
+MAP2D_PGM = DATA_DIR / "map2d.pgm"      # 2D 栅格图
+MAP2D_YAML = DATA_DIR / "map2d.yaml"    # 2D 栅格元数据
+MAP2D_PNG = DATA_DIR / "map2d.png"      # 2D 栅格图 PNG（预览用）
 
 
 def quat_to_yaw(qx, qy, qz, qw):
@@ -80,6 +82,8 @@ class MappingNode(Node):
         self.grid_pub = self.create_publisher(OccupancyGrid, "/mapping_grid", 1)
         self.create_timer(2.0, self.publish_grid)
         print(f"✅ 订阅：点云 {CLOUD_TOPIC}，位姿 {ROBOT_ODOM_TOPIC}")
+        print(f"二维投影筛选：world 坐标 {GRID_MIN_H:.2f} ≤ z ≤ {GRID_MAX_H:.2f} m，"
+              f"栅格 {GRID_RES:.2f} m；z 不是离地高度。")
 
     def _cloud_cb(self, msg: PointCloud2):
         """累积点云，边累积边体素降采样 0.15。"""
@@ -166,7 +170,7 @@ class MappingNode(Node):
     def save_2d_grid(self, pgm_path, yaml_path):
         """把 3D 点云投影到 XY，栅格化成 2D 占用栅格（Nav2 格式）。"""
         pts = self.get_cloud()
-        # 取高度范围内的点（过滤地面/天花板）
+        # 按 world 坐标 z 做高度切片；不进行地面拟合或物体分类。
         xy = [(x, y) for x, y, z in pts if GRID_MIN_H <= z <= GRID_MAX_H]
         if not xy:
             print("❌ 高度范围内没有点，无法生成 2D 栅格")
@@ -197,7 +201,7 @@ class MappingNode(Node):
         origin_x = min_x
         origin_y = min_y
         with open(yaml_path, "w") as f:
-            f.write(f"image: {MAP2D_PGM}\n")
+            f.write(f"image: {Path(pgm_path).name}\n")
             f.write(f"resolution: {GRID_RES}\n")
             f.write(f"origin: [{origin_x:.3f}, {origin_y:.3f}, 0.0]\n")
             f.write("negate: 0\n")
@@ -231,11 +235,10 @@ class MappingNode(Node):
 
 def launch_rviz():
     """启动一个 RViz 小窗口，展示 2D 栅格地图（/mapping_grid，渲染轻、不卡）。"""
-    rviz_config = "/home/slam/r2_ws/test_demo/mapping_grid.rviz"
-    cmd = (f"source /opt/ros/humble/setup.bash && "
-           f"source /home/slam/r2_ws/lidar_ws/install/setup.bash && "
-           f"ros2 run rviz2 rviz2 -d {rviz_config}")
-    return subprocess.Popen(["bash", "-c", cmd],
+    rviz_config = DATA_DIR / "mapping_grid.rviz"
+    print("RViz：选 Move Camera（M）；滚轮/右键拖动缩放，Shift+左键拖动平移。")
+    # 继承启动本脚本的 ROS 环境，兼容工作空间迁移与不同 ROS 发行版。
+    return subprocess.Popen(["ros2", "run", "rviz2", "rviz2", "-d", str(rviz_config)],
                             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 

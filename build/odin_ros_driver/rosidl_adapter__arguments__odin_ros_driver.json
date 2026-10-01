@@ -1,0 +1,12 @@
+{
+  "package_name": "odin_ros_driver",
+  "non_idl_tuples": [
+    "/home/slam/r2_ws/odin1_ws/src/odin_ros_driver:srv/GetAe.srv",
+    "/home/slam/r2_ws/odin1_ws/src/odin_ros_driver:srv/GetAwb.srv",
+    "/home/slam/r2_ws/odin1_ws/src/odin_ros_driver:srv/SetAe.srv",
+    "/home/slam/r2_ws/odin1_ws/src/odin_ros_driver:srv/SetAwb.srv",
+    "/home/slam/r2_ws/odin1_ws/src/odin_ros_driver:srv/GetDeviceLogs.srv",
+    "/home/slam/r2_ws/odin1_ws/src/odin_ros_driver:srv/SaveMap.srv",
+    "/home/slam/r2_ws/odin1_ws/src/odin_ros_driver:srv/ResetAlgo.srv"
+  ]
+}

@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from odin_ros_driver/srv/GetAe.srv
+// generated code does not contain a copyright notice
+
+
+module odin_ros_driver {
+  module srv {
+    @verbatim (language="comment", text=
+      "Query current AE (auto exposure) state." "\n"
+      "Request: empty." "\n"
+      "Response: success + raw return code + decoded fields.")
+    struct GetAe_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetAe_Response {
+      @verbatim (language="comment", text=
+        "true if rc == 0")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "0=ok, >0=device error (400..405 or 0xFF), <0=SDK error")
+      int32 rc;
+
+      @verbatim (language="comment", text=
+        "seconds (manual range 0.0001 .. 0.033)")
+      float exposure_time;
+
+      @verbatim (language="comment", text=
+        "analog gain")
+      float gain;
+
+      @verbatim (language="comment", text=
+        "equivalent ISO")
+      int32 iso;
+
+      @verbatim (language="comment", text=
+        "average frame brightness")
+      float brightness;
+
+      @verbatim (language="comment", text=
+        "1=converged, 0=not converged")
+      uint8 is_converged;
+
+      @verbatim (language="comment", text=
+        "ambient luminance level")
+      float env_lv;
+
+      @verbatim (language="comment", text=
+        "current frame rate")
+      float fps;
+    };
+  };
+};

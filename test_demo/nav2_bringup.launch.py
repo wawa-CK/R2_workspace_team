@@ -5,25 +5,9 @@ from launch_ros.actions import Node
 
 
 def generate_launch_description():
-    pkg_dir = "/home/slam/r2_ws/test_demo"
+    pkg_dir = os.path.dirname(os.path.abspath(__file__))
     params_file = os.path.join(pkg_dir, "nav2_params.yaml")
     map_yaml = os.path.join(pkg_dir, "map2d.yaml")
-
-    # TF 桥 1：map -> world（map2d 的 origin 就是 world 坐标，两者同系，恒等）
-    tf_map_world = Node(
-        package="tf2_ros",
-        executable="static_transform_publisher",
-        arguments=["--frame-id", "map", "--child-frame-id", "world"],
-        name="tf_map_world",
-    )
-
-    # TF 桥 2：imu -> base_link（近似恒等，实际有外参时可改这里）
-    tf_imu_base = Node(
-        package="tf2_ros",
-        executable="static_transform_publisher",
-        arguments=["--frame-id", "imu", "--child-frame-id", "base_link"],
-        name="tf_imu_base",
-    )
 
     # 2D 栅格地图服务器（加载 map2d.yaml -> /map）
     map_server = Node(
@@ -53,8 +37,6 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        tf_map_world,
-        tf_imu_base,
         map_server,
         planner_server,
         lifecycle_manager,

@@ -1,0 +1,1 @@
+Invoking command in '/home/slam/r2_ws/build/odin_ros_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/slam/r2_ws/odin1_ws/src/odin_ros_driver -DCMAKE_INSTALL_PREFIX=/home/slam/r2_ws/install/odin_ros_driver

@@ -1,9 +1,10 @@
-
 import os
 
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.substitutions import PathJoinSubstitution
+from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
 
 
@@ -15,12 +16,17 @@ def generate_launch_description():
         ]),
     )
 
-    # ② Super-LIO 建图（关掉自带 rviz，用建图脚本弹的 rviz）
-    super_lio = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            FindPackageShare("super_lio"), "/launch/Livox_mid360.py"
-        ]),
-        launch_arguments=[("rviz", "false")],
+    # 建图模式明确保存地图，rviz 由建图脚本单独启动。
+    super_lio = Node(
+        package="super_lio",
+        executable="super_lio_node",
+        name="super_lio_node",
+        output="screen",
+        parameters=[
+            PathJoinSubstitution([FindPackageShare("super_lio"), "config", "livox_360.yaml"]),
+            {"lio.map.save_map": True},
+        ],
+        arguments=["--ros-args", "--log-level", "info"],
     )
 
     return LaunchDescription([driver, super_lio])

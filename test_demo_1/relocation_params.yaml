@@ -1,0 +1,8 @@
+# 仅 test_demo 导航使用；建图的 livox_360.yaml 仍然可以保存地图。
+/**:
+  ros__parameters:
+    lio.map.save_map: false
+    lio.relocation.update_map: false
+    # 原来的 2m 软件过滤会使 /lio/cloud_world 看不到近场障碍。
+    # 安装位置、自身回波和低矮障碍需要在实机中核对。
+    lio.sensor.blind: 0.3

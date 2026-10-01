@@ -1,0 +1,59 @@
+# Nav2 全局规划参数。
+# 实际底盘速度仍由 nav_mid360.py 通过 TCP 发 ch0/ch2；这里负责静态地图、
+# 当前 Mid-360 点云障碍层和重新规划所需的 global_costmap。
+
+planner_server:
+  ros__parameters:
+    use_sim_time: false
+    expected_planner_frequency: 2.0
+    planner_plugins: ["GridBased"]
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+      tolerance: 0.08
+      use_astar: true
+      allow_unknown: false
+
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      use_sim_time: false
+      global_frame: "map"
+      robot_base_frame: "base_link"
+      update_frequency: 3.0
+      publish_frequency: 2.0
+      resolution: 0.05
+      track_unknown_space: true
+      always_send_full_costmap: true
+      robot_radius: 0.30
+      transform_tolerance: 0.5
+      plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
+
+      static_layer:
+        plugin: "nav2_costmap_2d::StaticLayer"
+        map_topic: "/map"
+        map_subscribe_transient_local: true
+        subscribe_to_updates: false
+
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        enabled: true
+        observation_sources: "cloud"
+        cloud:
+          topic: "/lio/cloud_world"
+          data_type: "PointCloud2"
+          sensor_frame: "imu"
+          marking: true
+          clearing: true
+          observation_persistence: 0.25
+          expected_update_rate: 0.5
+          min_obstacle_height: 0.15
+          max_obstacle_height: 1.8
+          obstacle_min_range: 0.20
+          obstacle_max_range: 5.0
+          raytrace_min_range: 0.20
+          raytrace_max_range: 6.0
+
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        inflation_radius: 0.55
+        cost_scaling_factor: 3.0

@@ -8,7 +8,7 @@ planner_server:
     planner_plugins: ["GridBased"]
     GridBased:
       plugin: "nav2_navfn_planner/NavfnPlanner"
-      tolerance: 0.5
+      tolerance: 0.05  # 与 nav_mid360.py 的 STOP_DISTANCE 一致，避免放宽到半米
       use_astar: true
       allow_unknown: true
 
