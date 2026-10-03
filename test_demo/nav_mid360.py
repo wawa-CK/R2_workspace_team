@@ -62,7 +62,7 @@ FRAME_HZ = 70
 
 # ==================== PID 参数（参考 usc move.py）====================
 PID_KP = 800.0           # 位置比例增益（速度 = kp * 距离，再限幅）
-PID_MAX_SPEED = 270      # 与手动前后通道速度一致；速度参数允许的最大值
+PID_MAX_SPEED = 600      # 与手动前后通道速度一致；速度参数允许的最大值
 DEFAULT_FORWARD_SPEED = PID_MAX_SPEED  # 默认前后速度（ch2）
 DEFAULT_LATERAL_SPEED = PID_MAX_SPEED  # 默认横移速度（ch0）
 PATH_LOOKAHEAD = 0.35    # 连续路径跟踪前瞻距离（米）

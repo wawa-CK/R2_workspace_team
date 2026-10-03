@@ -1,0 +1,55 @@
+[INFO] [launch]: All log files can be found below /home/slam/.ros/log/2026-10-01-22-20-56-169237-robot-mix-5221
+[INFO] [launch]: Default logging verbosity is set to INFO
+三维地图：/home/slam/r2_ws/test_demo/map3d.pcd；点数=315441；SHA256=1c98ab38cd01417aed99df67acccddbfb694890114bd69492b1ddece61b54ff9
+[INFO] [livox_ros_driver2_node-1]: process started with pid [5232]
+[INFO] [relocation_node-2]: process started with pid [5234]
+[INFO] [static_transform_publisher-3]: process started with pid [5236]
+[INFO] [static_transform_publisher-4]: process started with pid [5238]
+[static_transform_publisher-4] [INFO] [1790864456.535099334] [tf_imu_base]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-4] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-4] from 'imu' to 'base_link'
+[static_transform_publisher-3] [INFO] [1790864456.535657452] [tf_map_world]: Spinning until stopped - publishing transform
+[static_transform_publisher-3] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-3] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-3] from 'map' to 'world'
+[livox_ros_driver2_node-1] [INFO] [1790864456.544780926] [livox_lidar_publisher]: Livox Ros Driver2 Version: 1.2.7
+[livox_ros_driver2_node-1] [INFO] [1790864456.545262606] [livox_lidar_publisher]: Data Source is raw lidar.
+[livox_ros_driver2_node-1] [INFO] [1790864456.545289796] [livox_lidar_publisher]: Config file : /home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/../config/MID360_config.json
+[livox_ros_driver2_node-1] LdsLidar *GetInstance
+[livox_ros_driver2_node-1] config lidar type: 8
+[livox_ros_driver2_node-1] successfully parse base config, counts: 1
+[livox_ros_driver2_node-1] bind failed
+[livox_ros_driver2_node-1] Failed to init livox lidar sdk.
+[livox_ros_driver2_node-1] [ERROR] [1790864456.547846348] [livox_lidar_publisher]: Init lds lidar fail!
+[relocation_node-2] WARNING: Logging before InitGoogleLogging() is written to STDERR
+[relocation_node-2] I1001 22:20:56.571928  5234 ROSWrapper.cpp:15] [32m ---> [Param] map/save_map: false[0m
+[relocation_node-2] I1001 22:20:56.572615  5234 ROSWrapper.cpp:193] [32m ---> [Params]: Load from ROS2 parameter server.[0m
+[relocation_node-2] I1001 22:20:56.572625  5234 ROSWrapper.cpp:277] [32m ---> Using Lidar type: LIVOX[0m
+[relocation_node-2]  ---> OctVoxMap init. Resolution: 0.5 Capacity: 2000000
+[relocation_node-2] I1001 22:20:56.580459  5234 super_lio_reloc.cpp:86] [32m ---> [SuperLIO]: initialized.[0m
+[relocation_node-2] Failed to find match for field 'intensity'.
+[relocation_node-2] I1001 22:20:56.836367  5234 super_lio_reloc.cpp:120] [32m ---> Load map success. File: /home/slam/r2_ws/lidar_ws/src/Super-LIO/src/super_lio/../../../../../test_demo/map3d.pcd[0m
+[relocation_node-2] I1001 22:20:56.836382  5234 super_lio_reloc.cpp:121] [32m ---> Map size: 315441[0m
+[relocation_node-2]  ---> OctVoxMap info. Size: 22222 Capacity: 2000000
+[relocation_node-2] I1001 22:20:56.840898  5234 super_lio_reloc.cpp:92] [32m ---> [SuperLIO]: Map init success. Time: 260 ms.[0m
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [static_transform_publisher-4]: sending signal 'SIGINT' to process[static_transform_publisher-4]
+[INFO] [static_transform_publisher-3]: sending signal 'SIGINT' to process[static_transform_publisher-3]
+[INFO] [relocation_node-2]: sending signal 'SIGINT' to process[relocation_node-2]
+[INFO] [livox_ros_driver2_node-1]: sending signal 'SIGINT' to process[livox_ros_driver2_node-1]
+[static_transform_publisher-3] [INFO] [1790864506.074596066] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-4] [INFO] [1790864506.074593045] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ERROR] [static_transform_publisher-4]: process has died [pid 5238, exit code -2, cmd '/opt/ros/humble/lib/tf2_ros/static_transform_publisher --frame-id imu --child-frame-id base_link --ros-args -r __node:=tf_imu_base'].
+[livox_ros_driver2_node-1] [INFO] [1790864506.074594367] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ERROR] [static_transform_publisher-3]: process has died [pid 5236, exit code -2, cmd '/opt/ros/humble/lib/tf2_ros/static_transform_publisher --frame-id map --child-frame-id world --ros-args -r __node:=tf_map_world'].
+[relocation_node-2] [INFO] [1790864506.074595292] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[relocation_node-2] I1001 22:21:46.074978  5234 timer.h:40] >>> ===== Printing run time =====
+[livox_ros_driver2_node-1] [INFO] [1790864506.080239737] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ERROR] [relocation_node-2]: process has died [pid 5234, exit code -2, cmd '/home/slam/r2_ws/lidar_ws/install/super_lio/lib/super_lio/relocation_node --ros-args --log-level info --ros-args -r __node:=relocation_node --params-file /home/slam/r2_ws/lidar_ws/install/super_lio/share/super_lio/config/livox_360.yaml --params-file /tmp/launch_params_st5z9tpy'].
+[ERROR] [livox_ros_driver2_node-1]: process[livox_ros_driver2_node-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [livox_ros_driver2_node-1]: sending signal 'SIGTERM' to process[livox_ros_driver2_node-1]
+[livox_ros_driver2_node-1] [INFO] [1790864511.086353641] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ERROR] [livox_ros_driver2_node-1]: process[livox_ros_driver2_node-1] failed to terminate '10.0' seconds after receiving 'SIGTERM', escalating to 'SIGKILL'
+[INFO] [livox_ros_driver2_node-1]: sending signal 'SIGKILL' to process[livox_ros_driver2_node-1]
+[ERROR] [livox_ros_driver2_node-1]: process has died [pid 5232, exit code -9, cmd '/home/slam/r2_ws/lidar_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node --ros-args -r __node:=livox_lidar_publisher --params-file /tmp/launch_params_g1rzoxr2 --params-file /tmp/launch_params_lus2fyu0 --params-file /tmp/launch_params_1mfplsrg --params-file /tmp/launch_params_msez5qxc --params-file /tmp/launch_params_i46v6kl5 --params-file /tmp/launch_params_f5f9v4oj --params-file /tmp/launch_params_9_8pijam --params-file /tmp/launch_params_u1bi9on8 --params-file /tmp/launch_params_la3ky3km'].
